@@ -13,25 +13,8 @@ const Navbar = () => {
   const [color, setColor] = useState('transparent')
   const [textColor, setTextColor] = useState('red')
   const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState('#ecf0f3');
-  const [linkColor, setLinkColor] = useState('#FFFFFF');
-  // const [position, setPosition] = useState('fixed')
-  // const router = useRouter();
-
-  // useEffect(() => {
-  //   if (
-  //     router.asPath === '/property' ||
-  //     router.asPath === '/crypto' ||
-  //     router.asPath === '/netflix' ||
-  //     router.asPath === '/twitch'
-  //   ) {
-  //     setNavBg('transparent');
-  //     setLinkColor('#ecf0f3');
-  //   } else {
-  //     setNavBg('#ecf0f3');
-  //     setLinkColor('#1f2937');
-  //   }
-  // }, [router]);
+  const [navBg, setNavBg] = useState('');
+  const [linkColor, setLinkColor] = useState('#2a94d7');
 
   const handleNav = () => {
     setNav(!nav);
@@ -59,7 +42,7 @@ const Navbar = () => {
           : 'fixed w-full h-20 z-[100]'
       }
     >
-      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16 bg-gradient-to-b from-[#D9D9D9] to-[#7A7375]'>
+      <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
         <Link legacyBehavior href='/'>
           <a>
             <Image

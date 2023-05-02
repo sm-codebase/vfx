@@ -20,7 +20,7 @@ const ProductsCarousel = () => {
                           sizes="100vw"
                           style={{
                               width: "100%",
-                              height: "auto"
+                              height: "50%"
                           }} />
                       </Link>
                     </li>
@@ -33,7 +33,7 @@ const ProductsCarousel = () => {
                           sizes="100vw"
                           style={{
                               width: "100%",
-                              height: "auto"
+                              height: "50%"
                           }} />
                       </Link>
                     </li>
@@ -46,7 +46,7 @@ const ProductsCarousel = () => {
                           sizes="100vw"
                           style={{
                               width: "100%",
-                              height: "auto"
+                              height: "50%"
                           }} />
                       </Link>
                     </li>
@@ -58,7 +58,7 @@ const ProductsCarousel = () => {
                           sizes="100vw"
                           style={{
                               width: "100%",
-                              height: "auto"
+                              height: "50%"
                           }} />
                       </Link>
                     </li>

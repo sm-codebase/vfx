@@ -9,7 +9,7 @@ const Card = () => {
     <div className="mx-auto px-20">
         <div >
             <div className="grid grid-cols-1 gap-3 md:grid-cols-2 xl:grid-cols-3" >
-                <div className="p-6 bg-gradient-to-r from-[#770000] to-[#BD0000] rounded-lg">
+                <div className="p-6 bg-gradient-to-r from-[#2A94D7] to-[#3678a1] rounded-lg">
                     <div className="text-white text-left hover:text-center">
                         <h1 className='pb-2'><FaStar /></h1>
                         <h3 className="text-lg font-bold mb-2">Qualidade</h3>
@@ -19,7 +19,7 @@ const Card = () => {
                             </p>
                     </div>
                 </div>
-                <div className="p-6 bg-gradient-to-r from-[#770000] to-[#BD0000] rounded-lg">
+                <div className="p-6 bg-gradient-to-r from-[#2A94D7] to-[#3678a1] rounded-lg">
                     <div className="text-white text-left hover:text-center">
                         <h1 className='pb-2'><FaMedal /></h1>
                         <h3 className="text-lg font-bold mb-2">Credibilidade</h3>
@@ -29,7 +29,7 @@ const Card = () => {
                             </p>
                     </div>
                 </div>
-                <div className="p-6 bg-gradient-to-r from-[#770000] to-[#BD0000] rounded-lg">
+                <div className="p-6 bg-gradient-to-r from-[#2A94D7] to-[#3678a1] rounded-lg">
                     <div className="text-white text-left hover:text-center">
                         <h1 className='pb-2'><FaBook /></h1>
                         <h3 className="text-lg font-bold mb-2">História</h3>

@@ -3,6 +3,7 @@ import Main from '../components/Main'
 import NossaHistoria from '../components/NossaHistoria'
 import FaleComRepresentante from '../components/FaleComRepresentante'
 import Instagram from '../components/Instagram'
+import QuemSomos from '../components/QuemSomos'
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>  
       <Main /> 
+      <QuemSomos/>
       <NossaHistoria/>
       <FaleComRepresentante representante='TEMOS AS MELHORES CONDIÇÕES PARA REVENDEDORES' repmessage='Fale com um' repmessage1='representante'/> 
       <Instagram />  

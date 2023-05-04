@@ -35,7 +35,7 @@ const Navbar = () => {
 
   return (
     <div
-      style={{ backgroundColor: `${navBg}` }}
+      style={{ backgroundColor: `${color}` }}
       className={
         shadow
           ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
@@ -114,7 +114,7 @@ const Navbar = () => {
                     {nav ? <AiOutlineClose size={20} style={{color: `${textColor}`}} /> : <AiOutlineMenu size={20} style={{color: `${textColor}`}} />}
                 </div>
       {/*Mobile menu */}
-      <div className={nav ? 'sm:hidden absolute top-0 left-0 right-0 botton-0 flex justify-center items-center w-full h-screen bg-white text-center ease-in duration-300' : 'sm:hidden absolute top-0 left-[-100%] right-0 botton-0 flex justify-center items-center w-full h-screen bg-white text-center ease-in duration-300'}>
+      <div className={nav ? 'sm:hidden absolute top-0 left-0 right-0 botton-0 flex justify-center items-center w-full h-screen bg-gradient-to-r from-[#2A94D7] to-[#3678a1] text-center ease-in duration-300' : 'sm:hidden absolute top-0 left-[-100%] right-0 botton-0 flex justify-center items-center w-full h-screen bg-white text-center ease-in duration-300'}>
                     <ul>
                         <li onClick={handleNav}  className='p-4 text-4xl hover:text-gray-500'>
                             <Link href='/'>Home</Link>

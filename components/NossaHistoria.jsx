@@ -5,7 +5,7 @@ import Iframe from 'react-iframe'
 const NossaHistoria = () => {
   return (
     <div id='nossa-historia' className='w-full pt-20'>
-      <section className="pt-20 pb-48 bg-gradient-to-r from-[#770000] to-[#BD0000]">
+      <section className="pt-20 pb-48 bg-gradient-to-r from-[#2A94D7] to-[#3678a1]">
           <div className="container mx-auto px-4">
             <div className="flex flex-wrap justify-center text-center mb-24">
               <div className="w-full lg:w-6/12 px-4">

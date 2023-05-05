@@ -60,7 +60,7 @@ const Navbar = () => {
         <div>
         <div className='flex items-center justify-between space-x-4 my-5 w-full sm:w-[80%]'>
                 <a
-                  href='https://www.facebook.com/botinasprado'
+                  href='https://web.facebook.com/vfxmontagensindustritais'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -69,7 +69,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a
-                  href='https://www.instagram.com/botinasprado/'
+                  href='https://www.instagram.com/vfxmontagensindustriais/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -78,7 +78,7 @@ const Navbar = () => {
                   </div>
                 </a>
                 <a  
-                  href='https://wa.link/lmeph0'
+                  href='https://wa.link/'
                   target='_blank'
                   rel='noreferrer'
                 >
@@ -92,7 +92,7 @@ const Navbar = () => {
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
             <li className='ml-10 text-sm uppercase hover:border-b text-white'>
             <button className='p-3'>
-                <Link href='https://wa.link/lmeph0'>Fale Agora</Link>
+                <Link href='https://wa.link/'>Fale Agora</Link>
               </button>
             </li>
           </ul>

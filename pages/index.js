@@ -4,6 +4,8 @@ import NossaHistoria from '../components/NossaHistoria'
 import FaleComRepresentante from '../components/FaleComRepresentante'
 import Instagram from '../components/Instagram'
 import QuemSomos from '../components/QuemSomos'
+import HowCanWeHelp from '../components/HowCanWeHelp'
+import Services from '../components/Services'
 
 
 export default function Home() {
@@ -16,6 +18,8 @@ export default function Home() {
       </Head>  
       <Main /> 
       <QuemSomos/>
+      <HowCanWeHelp/>
+      <Services />
       <NossaHistoria/>
       <FaleComRepresentante representante='TEMOS AS MELHORES CONDIÇÕES PARA REVENDEDORES' repmessage='Fale com um' repmessage1='representante'/> 
       <Instagram />  

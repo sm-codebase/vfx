@@ -7,6 +7,10 @@ module.exports = {
     extend: {
       backgroundOpacity: ['active'],
     },
+    fontFamily: {
+      sans: ['Space Grotesk', 'sans-serif'],
+    },
+    
     screens: {
       'sm': '640px',
       // => @media (min-width: 640px) { ... }

@@ -18,11 +18,17 @@ const Main = () => {
     <div id="howcanwehelp" className="">
     <div className='md:hidden'>
       <div className=''>
-            <Carousel
-              autoPlay
-              infiniteLoop={true}
-              dynamicHeight={true}
-            >
+      <Carousel
+          autoPlay={true}
+          showArrows={false}
+          infiniteLoop={true}
+          interval={5000}
+          stopOnHover={false}
+          showThumbs={false}
+          showStatus={false}
+          showIndicators={false}
+          swipeable={false}
+        >
               <HowCanWeHelpSlider sliderImg={SlImgSm1} />  
               <HowCanWeHelpSlider sliderImg={SlImgSm2} />  
               <HowCanWeHelpSlider sliderImg={SlImgSm3} />  

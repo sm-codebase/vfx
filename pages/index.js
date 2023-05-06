@@ -20,9 +20,6 @@ export default function Home() {
       <QuemSomos/>
       <HowCanWeHelp/>
       <Services />
-      <NossaHistoria/>
-      <FaleComRepresentante representante='TEMOS AS MELHORES CONDIÇÕES PARA REVENDEDORES' repmessage='Fale com um' repmessage1='representante'/> 
-      <Instagram />  
     </div>
   )
 }

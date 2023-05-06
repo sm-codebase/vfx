@@ -15,12 +15,7 @@ const NossaHistoria = () => {
                 Ao longo desses 28 anos de história construimos um parceirias sólidas e um produto de qualidade que já faz parte do dia-a-dia de nossos clientes
                 </p>
                 <div className='justify-center w-full h-full'>
-              <Iframe 
-                    url="https://www.youtube.com/embed/HWJ7FI6ieCA"
-                    width='100%'
-                    height='100%'
-                    
-                    />
+              
                     
               </div>
               </div>

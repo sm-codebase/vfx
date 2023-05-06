@@ -43,9 +43,7 @@ const Main = () => {
               </Carousel>   
           </div>  
       </div>
-      <div className="mb-10">
-      <Card />
-      </div>
+     
                 
     </div>
       

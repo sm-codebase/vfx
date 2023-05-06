@@ -1,39 +1,53 @@
-import Image from "next/image";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 import React from 'react'
+import SlImgSm1 from '../public/assets/sl-img-sm-1.png'
+import SlImgSm2 from '../public/assets/sl-img-sm-2.png'
+import SlImgSm3 from '../public/assets/sl-img-sm-3.png'
+import SlImg1 from '../public/assets/sl-img-1.png'
+import SlImg2 from '../public/assets/sl-img-2.png'
+import SlImg3 from '../public/assets/sl-img-3.png'
+
+import HowCanWeHelpSlider from "./HowCanWeHelpSlider";
+import ProductsCarousel from "./ProductsCarousel";
 import Card from "./Card";
-import { FaInstagram, FaShoePrints } from 'react-icons/fa'
 
-const howCanWeHelp= ({ sliderImg }) => {
+
+const Main = () => {
   return (
-    <div className='relative h-screen'>
-
-      <div className='absolute inset-0'>
-        <Image
-          src={sliderImg}
-          alt='/'
-          className='w-full h-full'
-          sizes="100vw"
-          style={{
-            width: '100vw',
-            height: "80vh"
-          }} />
+    <div id="howcanwehelp" className="">
+    <div className='md:hidden'>
+      <div className=''>
+            <Carousel
+              autoPlay
+              infiniteLoop={true}
+              dynamicHeight={true}
+            >
+              <HowCanWeHelpSlider sliderImg={SlImgSm1} />  
+              <HowCanWeHelpSlider sliderImg={SlImgSm2} />  
+              <HowCanWeHelpSlider sliderImg={SlImgSm3} />  
+            </Carousel>  
+        </div>
+        
       </div>
-
-      {/* Overlay */}
-      <div className='absolute inset-0 flex flex-col justify-center items-center bg-black/50'>
-        <h3 className="mt-2 text-center text-white">O QUE PODEMOS FAZER PELA SUA EMPRESA?</h3>
-        <h1 className="py-20 text-center text-white text-4xl font-bold tracking-wider">
-          VFX Montagens Industriais
-        </h1>
-        <p className="mb-20 text-center text-white text-lg max-w-xl p-2">
-          Fundada em 2008 em Mogi Guaçu, a VFX Montagens Industriais vem atuando na área de serviços e projetos, com grande êxito.
-          Coordena seus projetos em conjunto com o cliente, gerenciando e respeitando cronogramas, prazos e todas as definições exigidas pelos clientes.
-          Conta com uma equipe própria multidisciplinar capacitada a desenvolver os projetos.
-        </p>
+      <div className='hidden md:block sm:block'>
+        <div className=''>
+              <Carousel
+                autoPlay
+                infiniteLoop={true}
+              >
+                <HowCanWeHelpSlider sliderImg={SlImg1} />
+                <HowCanWeHelpSlider sliderImg={SlImg2} />
+                <HowCanWeHelpSlider sliderImg={SlImg3} />
+                
+              </Carousel>   
+          </div>  
       </div>
-
+                
     </div>
+      
+    
   );
-}
+};
 
-export default howCanWeHelp;
+export default Main

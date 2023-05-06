@@ -20,7 +20,7 @@ const MainSlider = ({ sliderImg }) => {
                 {/* Overlay */}
                 <div className='grid grid-rows-1 absolute top-0 left-0 right-0 bottom-0 bg-black/50 group justify-center'>
                     <h3 className="mt-2">Somos a VFX</h3>
-                    <div className='grid grid-rows-1 absolute top-0 left-0 right-0 bottom-0 bg-black/50 group justify-center items-center'>
+                    <div className='grid grid-rows-1 absolute top-0 left-0 right-0 bottom-0 group justify-center items-center'>
 
                         <h1 className="py-20 text-white-300 group-hover:block flex items-center justify-center">
                             VFX Montagens Industriais

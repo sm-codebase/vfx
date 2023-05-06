@@ -24,7 +24,7 @@ function Footer() {
                     </a>
                     <div className='flex items-center justify-between space-x-4 my-5 w-full sm:w-[80%]'>
                         <a
-                        href='https://www.facebook.com/botinasprado'
+                        href='https://web.facebook.com/vfxmontagensindustritais'
                         target='_blank'
                         rel='noreferrer'
                         >
@@ -33,7 +33,7 @@ function Footer() {
                         </div>
                         </a>
                         <a
-                        href='https://www.instagram.com/botinasprado/'
+                        href='https://www.instagram.com/vfxmontagensindustriais/'
                         target='_blank'
                         rel='noreferrer'
                         >
@@ -42,7 +42,7 @@ function Footer() {
                         </div>
                         </a>
                         <a  
-                        href='https://wa.link/lmeph0'
+                        href='https://wa.link/'
                         target='_blank'
                         rel='noreferrer'
                         >
@@ -59,12 +59,12 @@ function Footer() {
                     <ul>
                         <li className="text-white text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
                             <p className="text-white font-bold">Endereço:</p>
-                            <p className="text-sm font-light">Estamos na 📍 Rua Santo Antônio do Jardim, 609 <br /> Jd Santo Antonio - Mogi Guaçu SP</p>
+                            <p className="text-sm font-light">Estamos na 📍 Rua Leopoldo Campos Pedrini, 39 <br /> Parque Industrial Jão Batista Caruso - Mogi Guaçu SP</p>
                         </li>
                         <li className="text-white text-md pb-2 font-semibold hover:text-red-400 cursor-pointer">
                             <p>Contato:</p>
-                            <p href='https://wa.link/lmeph0' className="text-sm font-light pt-2"><FaWhatsapp />19 99825-6810</p>
-                            <p className="font-light pt-2"><FaPhone />19 3891-8298</p>
+                            <p href='https://wa.link/lmeph0' className="text-sm font-light pt-2"><FaWhatsapp /></p>
+                            <p className="font-light pt-2"><FaPhone />19 3841-7556</p>
                         </li>
                     </ul>
                 </div>
@@ -78,8 +78,8 @@ function Footer() {
         </div>
         <div className="flex flex-col justify-center items-center text-center p-5 bg-gray-50">
             <h3 className=" text-gray-800 font-semibold">
-                © 2022 Prado Calçados | Todos os direitos reservados | Desenvolvido ❤ pela{" "}
-                <span className="hover:text-red-400 font-semibold cursor-pointer">
+                © 2023 VFX Montagens Industriais | Todos os direitos reservados | Desenvolvido ❤ pela{" "}
+                <span className="hover:text-blue-400 font-semibold cursor-pointer">
                     Sousas Midia{" "}
                 </span>
             </h3>

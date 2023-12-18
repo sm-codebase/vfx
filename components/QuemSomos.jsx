@@ -5,7 +5,7 @@ import ProdutoImg from '../public/assets/pr-img-1.png'
 
 const quemSomos = () => {
   return (
-    <div id='quemsomos' className='max-w-[1240px] mx-auto'>
+    <div id='quemsomos' className='max-w-[1240px] mx-auto p-10'>
       <div className='flex flex-col justify-between text-left text-base sm:text-xl font-extrabold text-gray-700 p-6'>
         <div>
           <h3 className='text-red-400 underline'>QUEM SOMOS</h3>

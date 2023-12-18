@@ -26,7 +26,7 @@ const Navbar = () => {
             setColor('#ffffff');
             setTextColor('#000000');
         } else {
-            setColor('transparent');
+            setColor('white');
             setTextColor('#000000');
         }
     };
@@ -37,9 +37,7 @@ const Navbar = () => {
     <div
       style={{ backgroundColor: `${color}` }}
       className={
-        shadow
-          ? 'fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300'
-          : 'fixed w-full h-20 z-[100]'
+      "fixed h-[95px]  top-0 w-full z-10 ease-in duration-300"
       }
     >
       <div className='flex justify-between items-center w-full h-full px-2 2xl:px-16'>
@@ -49,51 +47,35 @@ const Navbar = () => {
               src={NavLogo}
               alt='/'
               width='170'
-              height='70'
+              height='50'
               className='cursor-pointer'
               style={{
                 maxWidth: "70%",
                 height: "auto"
               }} />
           </a>
-        </Link >
-        <div>
-        <div className='flex items-center justify-between space-x-4 my-5 w-full sm:w-[80%]'>
-                <a
-                  href='https://web.facebook.com/vfxmontagensindustritais'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <div className='rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300  bg-white text-[#7A7375]'>
-                    <FaFacebook />
-                  </div>
-                </a>
-                <a
-                  href='https://www.instagram.com/vfxmontagensindustriais/'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <div className='rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300  bg-white text-[#7A7375]'>
-                    <FaInstagram />
-                  </div>
-                </a>
-                <a  
-                  href='https://wa.link/'
-                  target='_blank'
-                  rel='noreferrer'
-                >
-                  <div className='rounded-full p-3 cursor-pointer hover:scale-105 ease-in duration-300  bg-white text-[#7A7375]'>
-                            <FaWhatsapp />
-                  </div>
-                </a>
-              </div>
-        </div>
+        </Link>
+
+        <div className='ms-auto hidden sm:flex'>
+        
+        
+                   <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
+                        <li className='p-4 text-lg hover:text-gray-500'>
+                            <Link href='/'>Home</Link>
+                        </li>
+                        <li className='p-4 text-lg hover:text-gray-500'>
+                            <Link href='/#quemsomos'>Nossa Hitória</Link>
+                        </li>
+                        <li className='p-4 text-lg hover:text-gray-500'>
+                            <Link href='/#fale-com-representante'>Fale Conosco</Link>   
+                        </li>
+                    </ul>
+                </div>
+        
         <div>
           <ul style={{ color: `${linkColor}` }} className='hidden md:flex'>
             <li className='ml-10 text-sm uppercase hover:border-b text-white'>
-            <button className='p-3'>
-                <Link href='https://wa.link/'>Fale Agora</Link>
-              </button>
+            
             </li>
           </ul>
           {/* Hamburger Icon */}
@@ -111,7 +93,7 @@ const Navbar = () => {
       {/* Overlay */}
       {/*Mobile button */}
       <div onClick={handleNav} className='block sm:hidden z-10'>
-                    {nav ? <AiOutlineClose size={20} style={{color: `${textColor}`}} /> : <AiOutlineMenu size={20} style={{color: `${textColor}`}} />}
+                    
                 </div>
       {/*Mobile menu */}
       <div className={nav ? 'sm:hidden absolute top-0 left-0 right-0 botton-0 flex justify-center items-center w-full h-screen bg-gradient-to-r from-[#2A94D7] to-[#3678a1] text-center ease-in duration-300' : 'sm:hidden absolute top-0 left-[-100%] right-0 botton-0 flex justify-center items-center w-full h-screen bg-white text-center ease-in duration-300'}>
@@ -120,13 +102,18 @@ const Navbar = () => {
                             <Link href='/'>Home</Link>
                         </li>
                         <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
-                            <Link href='/#nossa-historia'>Nossa Hitória</Link>
+                            <Link href='/#quemsomos'>Nossa Hitória</Link>
                         </li>
                         <li onClick={handleNav} className='p-4 text-4xl hover:text-gray-500'>
                             <Link href='/#fale-com-representante'>Fale Conosco</Link>   
                         </li>
                     </ul>
                 </div>
+
+
+
+                
+                
     </div>
   );
 };

@@ -2,14 +2,12 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
-import primg1 from '../public/assets/carousel/pr-img-1.png' 
-import primg2 from '../public/assets/carousel/pr-img-2.png'
-import primg3 from '../public/assets/carousel/pr-img-3.png' 
-import primg4 from '../public/assets/carousel/pr-img-4.png'
-import primg5 from '../public/assets/carousel/pr-img-5.png' 
-import primg6 from '../public/assets/carousel/pr-img-6.png'
-
-
+import primg1 from "../public/assets/carousel/pr-img-1.png";
+import primg2 from "../public/assets/carousel/pr-img-2.png";
+import primg3 from "../public/assets/carousel/pr-img-3.png";
+import primg4 from "../public/assets/carousel/pr-img-4.png";
+import primg5 from "../public/assets/carousel/pr-img-5.png";
+import primg6 from "../public/assets/carousel/pr-img-6.png";
 
 const slides = [
   { id: 1, src: primg1, alt: "Image 1", text: "" },
@@ -18,7 +16,6 @@ const slides = [
   { id: 4, src: primg4, alt: "Image 4", text: "" },
   { id: 5, src: primg5, alt: "Image 5", text: "" },
   { id: 6, src: primg6, alt: "Image 6", text: "" },
-  
 ];
 
 function Carousel() {
@@ -58,23 +55,24 @@ function Carousel() {
 
   return (
     <div
-      className="max-w-[500px] h-[560px] w-full m-auto py- px-4  relative group"
+      className="max-w-[1450px] h-[680px] w-full m-auto py- px-4  relative group"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
-      >
+    >
       <div className="w-full h-full mt-24 bg-center bg-cover duration-500">
-        <Image className="rounded-2xl opacity-"
+        <Image
+          className="rounded-2xl opacity-"
           src={slides[currentIndex].src}
           alt={`Slide ${slides[currentIndex].id}`}
           layout="fill"
           objectFit="cover"
           priority // Add the priority property
         />
-        
+
         <div className="absolute inset-10 flex items-end justify-center text-green-800 text-2xl font-serif text-center font-bold">
           {slides[currentIndex].text}
         </div>
-        </div>
+      </div>
 
       {/* Left Arrow*/}
       <div

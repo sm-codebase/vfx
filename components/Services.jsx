@@ -18,12 +18,12 @@ import ServiceImg from "../public/assets/servicos-img.png";
 
 const services = () => {
   return (
-    <div id="quemsomos" className="max-w-[1240px] mx-auto">
+    <div id="services" className="max-w-[1240px] ">
       <section>
-        <div className="flex flex-col justify-between text-left text-base sm:text-xl font-extrabold text-gray-700 p-6">
+        <div className="flex flex-col justify-between font-bold text-gray-700 p-6">
           <div>
             <h3 className="text-red-400 underline">SERVIÇOS</h3>
-            <p className="pt-6 text-[#2A94D7]">Nossos Serviços</p>
+            <p className="pt-2 text-[#2A94D7]">Nossos Serviços</p>
           </div>
 
           <div className="pt-6">
@@ -52,7 +52,7 @@ const services = () => {
         </div>
       </section>
 
-      <section className="pt-20 pb-48 bg-gradient-to-r from-[#2A94D7] to-[#3678a1] rounded-xl p-10">
+      <section className="pt-20 pb-48 bg-gradient-to-r  from-[#2A94D7] to-[#3678a1] rounded-xl p-10 ">
         <div className="container mx-auto px-4">
           <div className="flex flex-wrap justify-center text-center mb-24">
             <div>

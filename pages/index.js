@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import Carousel from '../components/Carousel'
 import NossaHistoria from '../components/NossaHistoria'
-import FaleComRepresentante from '../components/FaleComRepresentante'
+
 import Instagram from '../components/Instagram'
 import QuemSomos from '../components/QuemSomos'
-import HowCanWeHelp from '../components/HowCanWeHelp'
+
 import Services from '../components/Services'
 
 
@@ -18,7 +18,7 @@ export default function Home() {
       </Head>  
       <Carousel /> 
       <QuemSomos/>
-      <HowCanWeHelp/>
+    
       <Services />
     </div>
   )

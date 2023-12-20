@@ -69,7 +69,7 @@ const Navbar = () => {
             <Link href="/#services">Serviços</Link>
           </li>
           <li className="p-4 hover:text-blue-500">
-            <Link href="/#">Contato</Link>
+            <Link href="/contact">Contato</Link>
           </li>
        
           

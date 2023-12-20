@@ -55,7 +55,7 @@ function Carousel() {
 
   return (
     <div
-      className="max-w-[1450px] h-[680px] w-full m-auto py- px-4  relative group"
+      className="max-w-[1450px] h-[560px] w-full m-auto py- px-4  relative group"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >

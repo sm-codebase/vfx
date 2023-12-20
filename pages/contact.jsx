@@ -1,10 +1,13 @@
 import React from 'react'
-import Main from '../components/Main'
+import Contact from '../components/Contact'
+
 
 const contact = () => {
   return (
     <div>
-      <Main heading='Fale com um representante' message='TEMOS AS MELHORES CONDIÇÕES PARA REVENDEDORES' />
+       
+        <Contact />
+       
     </div>
   )
 }

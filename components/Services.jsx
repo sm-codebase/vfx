@@ -22,7 +22,7 @@ const services = () => {
       <section>
         <div className="flex flex-col justify-between font-bold text-gray-700 p-6">
           <div>
-            <h3 className="text-red-400 underline">SERVIÇOS</h3>
+            <h3 className="text-red-400 underline ">SERVIÇOS</h3>
             <p className="pt-2 text-[#2A94D7]">Nossos Serviços</p>
           </div>
 
@@ -52,12 +52,12 @@ const services = () => {
         </div>
       </section>
 
-      <section className="pt-20 pb-48 bg-gradient-to-r  from-[#2A94D7] to-[#3678a1] rounded-xl p-10 ">
-        <div className="container mx-auto px-4">
-          <div className="flex flex-wrap justify-center text-center mb-24">
+      <section className="w-[2000px] bg-blue-500 rounded-xl p-10 ">
+        <div className="container mx-auto px-4 ">
+          <div className="flex flex-wrap justify-center  mb-24">
             <div>
               <div>
-                <h3 className="text-red-400 underline p-8">SERVIÇOS</h3>
+                <h3 className="text-red-400 underline   p-8">SERVIÇOS</h3>
               </div>
               <div className="lg:flex display-flex">
                 <div>

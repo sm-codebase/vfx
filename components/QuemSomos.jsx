@@ -14,19 +14,17 @@ import {
   FaBook,
 } from "react-icons/fa";
 import Image from "next/image";
-import ProdutoImg from '../public/assets/sl-img-1.png';
+import ProdutoImg from "../public/assets/industria-img-1.png";
 
 const quemSomos = () => {
   return (
-    <div id="quemsomos" className="max-w-[1240px]  my-8">
-      <div className="flex flex-col justify-between text-gray-700 p-6">
-        <div>
-          <h3 className="text-red-400 underline">QUEM SOMOS</h3>
-          <p className="pt-6 text-[#2A94D7]">
-            Garantir que nossos clientes obtenham exatamente aquilo que desejam
-            em termos de características, custo e atendimento.
-          </p>
+    <div id="quemsomos" className="container mx-auto text-black p-5">
+      <div className="flex flex-col md:flex-row items-center  text-gray-700 ">
+      <div className="md:w-1/2">
+        <div className="text-2xl font-bold text-gray-700 mb-2 mt-8">
+          <h3 className="text-red-400 underline text-justify">QUEM SOMOS</h3>
         </div>
+        
 
         <div className="text-justify">
           <p>
@@ -38,7 +36,16 @@ const quemSomos = () => {
             estar do ser humano.
           </p>
         </div>
-        
+        </div>
+        <div className="py-2 px-10 md-w-1/2 md:pr-5 mt-10">
+          <Image
+            src={ProdutoImg}
+            alt="imagem do produto"
+            width={500}
+            height={300}
+            className="mx-auto block lg:w-full lg:h-auto"
+          />
+        </div>
       </div>
     </div>
   );

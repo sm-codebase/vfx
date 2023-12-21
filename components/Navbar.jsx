@@ -55,9 +55,7 @@ const Navbar = () => {
           </a>
         </Link>
 
-          <div className="ms-auto ">
-          
-          </div>
+        <div className="ms-auto "></div>
         <ul style={{ color: `${textColor}` }} className="hidden sm:flex">
           <li className="p-4 hover:text-blue-500">
             <Link href="/">Home</Link>
@@ -69,14 +67,12 @@ const Navbar = () => {
             <Link href="/#services">Serviços</Link>
           </li>
           <li className="p-4 hover:text-blue-500">
+            <Link href="/#valores">Nossos Valores</Link>
+          </li>
+          <li className="p-4 hover:text-blue-500">
             <Link href="/contact">Contato</Link>
           </li>
-       
-          
         </ul>
-
-        
-       
 
         <div>
           <ul style={{ color: `${linkColor}` }} className="hidden md:flex">

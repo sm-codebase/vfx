@@ -13,8 +13,8 @@ import Link from "next/link";
 function Footer() {
   return (
     <div>
-      <div className="bg-gradient-to-b from-[#D9D9D9] to-[#7A7375] h-full w-full flex md:flex-row flex-col justify-around items-center  p-10">
-        <div className="p-5 ">
+      <div className="bg-gradient-to-b from-[#D9D9D9] to-[#7A7375]  h-full w-full flex md:flex-row flex-col justify-around items-center  p-10">
+        <div className="p-5 mx-auto">
           <ul>
             <a>
               <Image
@@ -53,7 +53,7 @@ function Footer() {
           </ul>
         </div>
 
-        <div className="">
+        <div className="p-5 mx-auto">
           <ul>
             <p className="text-white font-bold text-2xl pb-4 mt-10  ">
               Sobre nós
@@ -78,7 +78,13 @@ function Footer() {
           © 2023 VFX Montagens Industriais | Todos os direitos reservados |
           Desenvolvido ❤ pela{" "}
           <span className="hover:text-blue-400 font-semibold cursor-pointer">
-            Sousas Midia{" "}
+            <a
+              href="https://www.sousasmidia.com.br/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Sousas Midia{" "}
+            </a>
           </span>
         </h3>
       </div>

@@ -14,19 +14,19 @@ import {
   FaBook,
 } from "react-icons/fa";
 import Image from "next/image";
-import ServiceImg from "../public/assets/servicos-img.png";
+
+import ProdutoImg from "../public/assets/industria-img-2.png";
 
 const services = () => {
   return (
-    <div id="services" className="max-w-[1240px] ">
-      <section>
-        <div className="flex flex-col justify-between font-bold text-gray-700 p-6">
-          <div>
-            <h3 className="text-red-400 underline ">SERVIÇOS</h3>
-            <p className="pt-2 text-[#2A94D7]">Nossos Serviços</p>
+    <div id="services" className="container mx-auto text-black p-5">
+      <div className="flex flex-col md:flex-row items-center  text-gray-700 ">
+        <div className="md:w-1/2">
+          <div className="text-2xl font-bold text-gray-700 mb-2 mt-8">
+            <h3 className="text-red-400 underline text-justify ">SERVIÇOS</h3>
           </div>
 
-          <div className="pt-6">
+          <div className="text-justify">
             <p>
               A VFX Montagens Industriais oferece diversos serviços para atender
               às necessidades dos seus clientes. Na área de segurança do
@@ -50,96 +50,18 @@ const services = () => {
             </p>
           </div>
         </div>
-      </section>
+      
 
-      <section className="w-[2000px] bg-blue-500 rounded-xl p-10 ">
-        <div className="container mx-auto px-4 ">
-          <div className="flex flex-wrap justify-center  mb-24">
-            <div>
-              <div>
-                <h3 className="text-red-400 underline   p-8">SERVIÇOS</h3>
-              </div>
-              <div className="lg:flex display-flex">
-                <div>
-                  <h2 className=" text-white py-6">Área do Cliente</h2>
-                  <p className="pt-2">
-                    Nr 01 Ordem de Serviço, Nr 05 Cipa (Indicado pelo
-                    Empregador) Nr 06 Epis, Nr 33 (Espaço Confinado ),Nr-10 item
-                    10.2.1 / Gerenciamento de Risco, Nr 35 (Trabalho em Altura).
-                  </p>
-                </div>
-                <div>
-                  <Image
-                    src={ServiceImg}
-                    alt="imagem do produto"
-                    width={400}
-                    height={400}
-                    className="mx-auto block lg:w-full lg:h-auto"
-                  />
-                </div>
-              </div>
-              <div className="lg:flex lg:flex-row-reverse p-5 lg:space-y-8">
-                <div>
-                  <h2 className=" text-white py-6">Calandras</h2>
-                  <p className="pt-2">
-                    Máquinas que tem o papel de curvar ou desempenar chapas de
-                    aço e metal.
-                  </p>
-                </div>
-                <div>
-                  <Image
-                    src={ServiceImg}
-                    alt="imagem do produto"
-                    width={400}
-                    height={400}
-                    className="mx-auto block lg:w-full lg:h-auto"
-                  />
-                </div>
-              </div>
-              <div className="lg:flex display-flex">
-                <div>
-                  <h2 className=" text-white py-6">Combate a Incendio</h2>
-                  <p className="pt-2">
-                    Projeto e montagem de tubulações, hidrantes, detectores de
-                    fumaça, luz de emergência, sprinkler, para-raios de combate
-                    a incêndio para lojas e industrias.
-                  </p>
-                </div>
-                <div>
-                  <Image
-                    src={ServiceImg}
-                    alt="imagem do produto"
-                    width={400}
-                    height={400}
-                    className="mx-auto block lg:w-full lg:h-auto"
-                  />
-                </div>
-              </div>
-              <div className="lg:flex lg:flex-row-reverse">
-                <div>
-                  <h2 className="text-white py-6">
-                    Eletricista de Manutenção e Montagem
-                  </h2>
-                  <p className="pt-2">
-                    Nr 01 Ordem de Serviço, Nr 05 Cipa (Indicado pelo
-                    Empregador) Nr 06 Epis, Nr 33 (Espaço Confinado), Nr-10 item
-                    10.2.1 / Gerenciamento de Risco, Nr 35 (Trabalho em Altura).
-                  </p>
-                </div>
-                <div>
-                  <Image
-                    src={ServiceImg}
-                    alt="imagem do produto"
-                    width={400}
-                    height={400}
-                    className="mx-auto block lg:w-full lg:h-auto"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <div className="py-2 px-10 md-w-1/2 md:pr-5 mt-10">
+        <Image
+          src={ProdutoImg}
+          alt="imagem do produto"
+          width={500}
+          height={300}
+          className="mx-auto block lg:w-full lg:h-auto"
+        />
+      </div>
+      </div>
     </div>
   );
 };

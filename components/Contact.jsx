@@ -6,7 +6,7 @@ const Contact = () => {
         <h1 className='text-2xl font-bold text-center p-4'>Seja nosso cliente</h1>
         <form 
          className='max-w-[600px] m-auto mt-5'
-         action='https://getform.io/f/e27122d0-21c4-4930-8a9d-37c17244c7c7'
+         action='https://getform.io/f/e624525c-3703-47bf-a2c5-790dc98801d5'
          method='POST'
          encType='multipart/form-data'
         >

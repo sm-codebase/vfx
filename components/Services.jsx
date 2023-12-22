@@ -1,18 +1,4 @@
 import React from "react";
-import {
-  FaTeeth,
-  FaGlobe,
-  FaCog,
-  FaSquare,
-  FaSquareFull,
-  FaSquarespace,
-  FaStethoscope,
-  FaHeartbeat,
-  FaStar,
-  FaMedal,
-  FaPager,
-  FaBook,
-} from "react-icons/fa";
 import Image from "next/image";
 
 import ProdutoImg from "../public/assets/industria-img-2.png";

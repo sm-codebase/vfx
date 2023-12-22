@@ -13,7 +13,7 @@ import Link from "next/link";
 function Footer() {
   return (
     <div>
-      <div className="bg-gradient-to-b from-[#D9D9D9] to-[#7A7375]  h-full w-full flex md:flex-row flex-col justify-around items-center  p-10">
+      <div className="bg-gradient-to-r from-[#2A94D7] to-[#3678a1]  h-full w-full flex md:flex-row flex-col justify-around items-center  p-10">
         <div className="p-5 mx-auto">
           <ul>
             <a>

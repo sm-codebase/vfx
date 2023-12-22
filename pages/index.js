@@ -1,11 +1,11 @@
 import Head from "next/head";
 import Carousel from "../components/Carousel";
-import NossaHistoria from "../components/NossaHistoria";
+
 import Instagram from "../components/Instagram";
 import QuemSomos from "../components/QuemSomos";
 import Services from "../components/Services";
 import Valores from "../components/Valores";
-import SimpleMap from "../components/Simple.map";
+import SimpleMap from "../components/SimpleMap";
 
 export default function Home() {
   return (

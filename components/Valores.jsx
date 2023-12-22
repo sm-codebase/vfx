@@ -37,7 +37,7 @@ const Valores = () => {
               <a>
                 <div className="bg-white shadow-lg rounded-lg p-4">
                   <h1 className="text-blue-700">
-                    <FaHandshake />
+                    <FaHandshake size={20}/>
                   </h1>
                   <p className="text-lg text-blue-700 mt-4 font-semibold">
                     Integridade
@@ -52,7 +52,7 @@ const Valores = () => {
               <a>
                 <div className="bg-white shadow-lg rounded-lg p-4 mt-4">
                   <h1 className="text-blue-700">
-                    <FaUsers />
+                    <FaUsers size={20} />
                   </h1>
                   <p className="text-lg text-blue-700 mt-4 font-semibold">
                     Colaboração
@@ -67,7 +67,7 @@ const Valores = () => {
               <a>
                 <div className="bg-white shadow-lg rounded-lg p-4">
                   <h1 className="text-blue-700">
-                    <FaArrowAltCircleUp />
+                    <FaArrowAltCircleUp size={20}/>
                   </h1>
                   <p className="text-lg text-blue-700 mt-4 font-semibold">
                     Empenho
@@ -82,7 +82,7 @@ const Valores = () => {
               <a>
                 <div className="bg-white shadow-lg rounded-lg p-4">
                   <h1 className="text-blue-700">
-                    <FaHeartbeat />
+                    <FaHeartbeat size={20} />
                   </h1>
                   <p className="text-lg text-blue-700 mt-4 font-semibold">
                     Perspectiva
@@ -97,7 +97,7 @@ const Valores = () => {
               <a>
                 <div className="bg-white shadow-lg rounded-lg p-4">
                   <h1 className="text-blue-700">
-                    <FaEye />
+                    <FaEye size={20}/>
                   </h1>
                   <p className="text-lg text-blue-700 mt-4 font-semibold">
                     Perspectiva
@@ -112,7 +112,7 @@ const Valores = () => {
               <a>
                 <div className="bg-white shadow-lg rounded-lg p-4">
                   <h1 className="text-blue-700">
-                    <FaHeartbeat />
+                    <FaHeartbeat size={20}/>
                   </h1>
                   <p className="text-lg text-blue-700 mt-4 font-semibold">
                     Melhoria Contínua

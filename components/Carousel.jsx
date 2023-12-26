@@ -6,18 +6,43 @@ import primg1 from "../public/assets/carousel/pr-img-1.png";
 import primg2 from "../public/assets/carousel/pr-img-2.png";
 import primg3 from "../public/assets/carousel/pr-img-3.png";
 import primg4 from "../public/assets/carousel/pr-img-4.png";
-import primg5 from "../public/assets/carousel/pr-img-5.png";
-import primg6 from "../public/assets/carousel/pr-img-6.png";
+import Logo from "../public/logo.png";
 
 const slides = [
-  { id: 1, src: primg1, alt: "Image 1", text: "" },
-  { id: 2, src: primg2, alt: "Image 2", text: "" },
-  { id: 3, src: primg3, alt: "Image 3", text: "" },
-  { id: 4, src: primg4, alt: "Image 4", text: "" },
-  { id: 5, src: primg5, alt: "Image 5", text: "" },
-  { id: 6, src: primg6, alt: "Image 6", text: "" },
+  {
+    id: 1,
+    src: primg1,
+    alt: "Image 1",
+    summary: "Sustentabilidade e qualidade caminham lado a lado",
+    description:
+      "Fabricamos produtos e embalagens de madeira com a certificação ISO, garantindo que cada peça seja ecologicamente responsável e ideal para necessidades industriais. ",
+  },
+  {
+    id: 2,
+    src: primg2,
+    alt: "Image 2",
+    summary: "Embalagens sob medida",
+    description:
+      "Nossa abordagem personalizada assegura que cada embalagem seja projetada com precisão, garantindo a proteção ideal para seus produtos durante o transporte e armazenamento. Ao optar por nossas embalagens sob medida, você está escolhendo a excelência em design e funcionalidade para atender aos requisitos únicos do seu setor.",
+  },
+  {
+    id: 3,
+    src: primg3,
+    alt: "Image 3",
+    summary: "Estamos comprometidos com um futuro sustentável",
+    description:
+      "Utilizando 100% de energia proveniente do sol. Ao nos escolher, você apoia um futuro mais limpo e sustentável.",
+  },
+  {
+    id: 4,
+    src: primg4,
+    alt: "Image 4",
+    summary:
+      "Compromisso com o futuro! Todas as nossas embalagens e produtos de madeira vêm de fontes de reflorestamento.",
+    description:
+      "Canaã Pallets, cada produto conta uma história de responsabilidade ambiental. Nossas embalagens e pallets são frutos de florestas geridas de forma sustentável, garantindo o equilíbrio do nosso ecossistema. Escolha parceiros que, como nós, colocam o planeta em primeiro lugar.",
+  },
 ];
-
 function Carousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isHovered, setIsHovered] = useState(false);
@@ -45,7 +70,7 @@ function Carousel() {
       // Auto-scroll every 5 seconds (adjust the interval as needed)
       intervalId = setInterval(() => {
         nextSlide();
-      }, 5000);
+      }, 10000);
     }
 
     return () => {
@@ -55,13 +80,13 @@ function Carousel() {
 
   return (
     <div
-      className="max-w-[1450px] h-[560px] w-full m-auto py- px-4  relative group"
+      className="max-w-[1200px] h-[560px] w-full m-auto py- px-2  relative group"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="w-full h-full mt-24 bg-center bg-cover duration-500">
+      <div className="w-full h-full mt-24 bg-center bg-cover duration-500 relative transition-opacity bg-gradient-to-r from-[#2A94D7] to-[#3678a1]">
         <Image
-          className="rounded-2xl opacity-"
+          className="rounded-2xl opacity-30 transition-opacity duration-500 group-hover:opacity-30"
           src={slides[currentIndex].src}
           alt={`Slide ${slides[currentIndex].id}`}
           layout="fill"
@@ -69,8 +94,18 @@ function Carousel() {
           priority // Add the priority property
         />
 
-        <div className="absolute inset-10 flex items-end justify-center text-green-800 text-2xl font-serif text-center font-bold">
-          {slides[currentIndex].text}
+        <div className="absolute px-4 flex items-center justify-center font-bold text-center animate-fade-in drop-shadow-lg h-full w-full">
+          <div>
+            <h1 className="text-3xl uppercase bg-clip-text font-bold text-transparent bg-gradient-to-r from-[#000000] to-[#000000] drop-shadow-2xl">
+              {slides[currentIndex].summary}
+            </h1>
+            <p className="text-white py-4">
+              {slides[currentIndex].description}
+            </p>
+          </div>
+        </div>
+        <div className="absolute bottom-0 grid justify-items-center w-full  ">
+          <Image src={Logo} alt="logo-branco" height={38.5} width={116.6} />
         </div>
       </div>
 
@@ -88,7 +123,7 @@ function Carousel() {
       >
         <BsChevronCompactRight onClick={nextSlide} size={30} />
       </div>
-      <div className="flex top-4  justify-center py-2">
+      <div className="flex top-4 justify-center py-2">
         {slides.map((slide) => (
           <div
             key={slide.id}

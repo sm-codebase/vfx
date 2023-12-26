@@ -41,9 +41,9 @@ const quemSomos = () => {
           <Image
             src={ProdutoImg}
             alt="imagem do produto"
-            width={500}
-            height={300}
-            className="mx-auto block lg:w-full lg:h-auto"
+            width={400}
+            height={400}
+            className="mx-auto block lg:w-full lg:h-auto rounded-lg"
           />
         </div>
       </div>

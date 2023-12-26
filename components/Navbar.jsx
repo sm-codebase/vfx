@@ -2,19 +2,15 @@ import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect } from "react";
 import { AiOutlineClose, AiOutlineMail, AiOutlineMenu } from "react-icons/ai";
-import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
-import { BsFillPersonLinesFill } from "react-icons/bs";
 // import { useRouter } from 'next/router';
 import NavLogo from "../public/logo.png";
-import { Button } from "react-bootstrap";
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const [color, setColor] = useState("transparent");
   const [textColor, setTextColor] = useState("black");
-  const [shadow, setShadow] = useState(false);
-  const [navBg, setNavBg] = useState("");
-  const [linkColor, setLinkColor] = useState("#2a94d7");
+ 
 
   const handleNav = () => {
     setNav(!nav);
@@ -77,31 +73,23 @@ const Navbar = () => {
           </li>
         </ul>
 
-        <div>
-          <ul style={{ color: `${linkColor}` }} className="hidden md:flex">
-            <li className="ml-10 text-sm uppercase hover:border-b text-white"></li>
-          </ul>
-          {/* Hamburger Icon */}
-          <div
-            style={{ color: `${linkColor}` }}
-            onClick={handleNav}
-            className="sm:hidden"
-          >
-            <AiOutlineMenu size={25} />
-          </div>
-        </div>
-      </div>
+        
+      
 
-      {/* Mobile Menu */}
-      {/* Overlay */}
       {/*Mobile button */}
-      <div onClick={handleNav} className="block sm:hidden z-10"></div>
-      {/*Mobile menu */}
+      <div onClick={handleNav} className="block sm:hidden z-10">
+      {nav ? (
+        <AiOutlineClose size={20} style={{ color: `${textColor}` }} />
+      ) : (
+        <AiOutlineMenu size={20} style={{ color: `${textColor}` }} />
+      )}
+    </div>
+    {/*Mobile menu */}
       <div
         className={
           nav
             ? "sm:hidden absolute top-0 left-0 right-0 botton-0 flex justify-center items-center w-full h-screen bg-gradient-to-r from-[#2A94D7] to-[#3678a1] text-center ease-in duration-300"
-            : "sm:hidden absolute top-0 left-[-100%] right-0 botton-0 flex justify-center items-center w-full h-screen bg-white text-center ease-in duration-300"
+            : "sm:hidden absolute top-0 left-[-100%] right-0 botton-0 flex justify-center items-center w-full h-screen bg-gradient-to-r from-[#2A94D7] to-[#3678a1] text-center ease-in duration-300"
         }
       >
         <ul>
@@ -115,15 +103,16 @@ const Navbar = () => {
             <Link href="/#services">Serviços</Link>
           </li>
           <li onClick={handleNav} className="p-4 text-4xl hover:text-white">
-            <Link href="/contact">Nossos valores</Link>
+            <Link href="/#valores">Nossos valores</Link>
           </li>
           <li onClick={handleNav} className="p-4 text-4xl hover:text-white">
-            <Link href="/contact">Localização</Link>
+            <Link href="/#localizacao">Localização</Link>
           </li>
           <li onClick={handleNav} className="p-4 text-4xl hover:text-white">
             <Link href="/contact">Contato</Link>
           </li>
         </ul>
+      </div>
       </div>
     </div>
   );

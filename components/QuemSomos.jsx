@@ -37,7 +37,7 @@ const quemSomos = () => {
           </p>
         </div>
         </div>
-        <div className="py-2 px-10 md-w-1/2 md:pr-5 mt-10">
+        <div className="py-2 px-10 md-w-1/2 md:pr-5 mt-10 pt-10">
           <Image
             src={ProdutoImg}
             alt="imagem do produto"

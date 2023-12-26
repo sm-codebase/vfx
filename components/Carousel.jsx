@@ -13,34 +13,34 @@ const slides = [
     id: 1,
     src: primg1,
     alt: "Image 1",
-    summary: "Sustentabilidade e qualidade caminham lado a lado",
+    summary: "Montagens Industriais: Excelência em Construção",
     description:
-      "Fabricamos produtos e embalagens de madeira com a certificação ISO, garantindo que cada peça seja ecologicamente responsável e ideal para necessidades industriais. ",
+      "Somos especialistas em montagens industriais que superam expectativas. Nossa dedicação à excelência e precisão em cada etapa do processo resulta em estruturas robustas e funcionais. Confie em nossa experiência para elevar sua indústria ao próximo nível. ",
   },
   {
     id: 2,
     src: primg2,
     alt: "Image 2",
-    summary: "Embalagens sob medida",
+    summary: "Construindo o Amanhã: Montagens Industriais de Qualidade",
     description:
-      "Nossa abordagem personalizada assegura que cada embalagem seja projetada com precisão, garantindo a proteção ideal para seus produtos durante o transporte e armazenamento. Ao optar por nossas embalagens sob medida, você está escolhendo a excelência em design e funcionalidade para atender aos requisitos únicos do seu setor.",
+      "Construímos o futuro com cada montagem industrial. Nosso comprometimento com a qualidade se reflete em cada detalhe, oferecendo soluções confiáveis e inovadoras para os desafios de sua indústria. Descubra como nossa experiência transforma visões em realidade..",
   },
   {
     id: 3,
     src: primg3,
     alt: "Image 3",
-    summary: "Estamos comprometidos com um futuro sustentável",
+    summary: "Precisão em Movimento: Montagens Industriais de Alto Desempenho",
     description:
-      "Utilizando 100% de energia proveniente do sol. Ao nos escolher, você apoia um futuro mais limpo e sustentável.",
+      "Cada projeto é uma prova de nossa dedicação à precisão e eficiência. Nossas montagens industriais são um exemplo de excelência, impulsionando o progresso e garantindo resultados excepcionais para nossos clientes. Conheça a diferença que fazemos em cada estrutura que construímos.",
   },
   {
     id: 4,
     src: primg4,
     alt: "Image 4",
     summary:
-      "Compromisso com o futuro! Todas as nossas embalagens e produtos de madeira vêm de fontes de reflorestamento.",
+      "Montagens Industriais: Inovação que Impulsiona Negócios",
     description:
-      "Canaã Pallets, cada produto conta uma história de responsabilidade ambiental. Nossas embalagens e pallets são frutos de florestas geridas de forma sustentável, garantindo o equilíbrio do nosso ecossistema. Escolha parceiros que, como nós, colocam o planeta em primeiro lugar.",
+      "Inovação é a essência de nossas montagens industriais. Criamos soluções adaptadas às necessidades específicas de sua indústria, garantindo eficiência, durabilidade e um avanço significativo em seu empreendimento. Venha explorar o que podemos construir juntos.",
   },
 ];
 function Carousel() {
@@ -104,7 +104,7 @@ function Carousel() {
             </p>
           </div>
         </div>
-        <div className="absolute bottom-0 grid justify-items-center w-full  ">
+        <div className="absolute bottom-0 grid justify-items-center w-full">
           <Image src={Logo} alt="logo-branco" height={38.5} width={116.6} />
         </div>
       </div>

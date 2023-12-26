@@ -112,6 +112,15 @@ const Navbar = () => {
             <Link href="/#quemsomos">Quem somos</Link>
           </li>
           <li onClick={handleNav} className="p-4 text-4xl hover:text-white">
+            <Link href="/#services">Serviços</Link>
+          </li>
+          <li onClick={handleNav} className="p-4 text-4xl hover:text-white">
+            <Link href="/contact">Nossos valores</Link>
+          </li>
+          <li onClick={handleNav} className="p-4 text-4xl hover:text-white">
+            <Link href="/contact">Localização</Link>
+          </li>
+          <li onClick={handleNav} className="p-4 text-4xl hover:text-white">
             <Link href="/contact">Contato</Link>
           </li>
         </ul>

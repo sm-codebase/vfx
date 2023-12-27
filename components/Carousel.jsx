@@ -96,7 +96,7 @@ function Carousel() {
 
         <div className="absolute px-4 flex items-center justify-center font-bold text-center animate-fade-in drop-shadow-lg h-full w-full">
           <div>
-            <h1 className="text-3xl uppercase bg-clip-text font-bold text-transparent bg-gradient-to-r from-[#000000] to-[#000000] drop-shadow-2xl">
+            <h1 className="text-3xl uppercase bg-clip-text font-bold text-transparent bg-gradient-to-r from-[#C5C5C5]   to-[#c5c5c593] drop-shadow-2xl">
               {slides[currentIndex].summary}
             </h1>
             <p className="text-white py-4">

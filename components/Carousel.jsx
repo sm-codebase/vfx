@@ -2,45 +2,45 @@ import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { RxDotFilled } from "react-icons/rx";
-import primg1 from "../public/assets/carousel/pr-img-1.png";
-import primg2 from "../public/assets/carousel/pr-img-2.png";
-import primg3 from "../public/assets/carousel/pr-img-3.png";
-import primg4 from "../public/assets/carousel/pr-img-4.png";
-import Logo from "../public/logo.png";
+import primg1 from "../public/assets/carousel/pr-img-1.jpg";
+import primg2 from "../public/assets/carousel/pr-img-2.jpg";
+import primg3 from "../public/assets/carousel/pr-img-3.jpg";
+import primg4 from "../public/assets/carousel/pr-img-4.jpg";
+import { TbCircleArrowRightFilled, TbCircleArrowLeftFilled } from "react-icons/tb";
 
 const slides = [
   {
     id: 1,
     src: primg1,
     alt: "Image 1",
-    summary: "Montagens Industriais: Excelência em Construção",
+    summary: "Casamento",
     description:
-      "Somos especialistas em montagens industriais que superam expectativas. Nossa dedicação à excelência e precisão em cada etapa do processo resulta em estruturas robustas e funcionais. Confie em nossa experiência para elevar sua indústria ao próximo nível. ",
+      " ",
   },
   {
     id: 2,
     src: primg2,
     alt: "Image 2",
-    summary: "Construindo o Amanhã: Montagens Industriais de Qualidade",
+    summary: "Eventos",
     description:
-      "Construímos o futuro com cada montagem industrial. Nosso comprometimento com a qualidade se reflete em cada detalhe, oferecendo soluções confiáveis e inovadoras para os desafios de sua indústria. Descubra como nossa experiência transforma visões em realidade..",
+      "",
   },
   {
     id: 3,
     src: primg3,
     alt: "Image 3",
-    summary: "Precisão em Movimento: Montagens Industriais de Alto Desempenho",
+    summary: "Festas",
     description:
-      "Cada projeto é uma prova de nossa dedicação à precisão e eficiência. Nossas montagens industriais são um exemplo de excelência, impulsionando o progresso e garantindo resultados excepcionais para nossos clientes. Conheça a diferença que fazemos em cada estrutura que construímos.",
+      "",
   },
   {
     id: 4,
     src: primg4,
     alt: "Image 4",
     summary:
-      "Montagens Industriais: Inovação que Impulsiona Negócios",
+      "shows",
     description:
-      "Inovação é a essência de nossas montagens industriais. Criamos soluções adaptadas às necessidades específicas de sua indústria, garantindo eficiência, durabilidade e um avanço significativo em seu empreendimento. Venha explorar o que podemos construir juntos.",
+      "",
   },
 ];
 function Carousel() {
@@ -79,14 +79,15 @@ function Carousel() {
   }, [isHovered, currentIndex]);
 
   return (
+    <div className="bg-gray-900 min-h-[600px] p-10">
     <div
-      className="max-w-[1200px] h-[560px] w-full m-auto py- px-2  relative group"
+      className="max-w-[1000px] h-[500px] w-full m-auto py-  group absolute bottom-0 inset-0 mt-32 "
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="w-full h-full mt-24 bg-center bg-cover duration-500 relative transition-opacity bg-gradient-to-r from-[#2A94D7] to-[#3678a1]">
+      <div className="w-full h-full  bg-center bg-cover duration-500 relative transition-opacity  ">
         <Image
-          className="rounded-2xl opacity-30 transition-opacity duration-500 group-hover:opacity-30"
+          className="rounded-lg opacity- transition-opacity duration-500 group-hover:opacity- "
           src={slides[currentIndex].src}
           alt={`Slide ${slides[currentIndex].id}`}
           layout="fill"
@@ -94,9 +95,9 @@ function Carousel() {
           priority // Add the priority property
         />
 
-        <div className="absolute px-4 flex items-center justify-center font-bold text-center animate-fade-in drop-shadow-lg h-full w-full">
+        <div className="absolute  p-8 flex items-end justify-start font-bold text-center animate-fade-in drop-shadow-lg h-full w-full">
           <div>
-            <h1 className="text-3xl uppercase bg-clip-text font-bold text-transparent bg-gradient-to-r from-[#C5C5C5]   to-[#c5c5c593] drop-shadow-2xl">
+            <h1 className="text-2xl uppercase bg-clip-text font-medium text-white ">
               {slides[currentIndex].summary}
             </h1>
             <p className="text-white py-4">
@@ -105,36 +106,42 @@ function Carousel() {
           </div>
         </div>
         <div className="absolute bottom-0 grid justify-items-center w-full">
-          <Image src={Logo} alt="logo-branco" height={38.5} width={116.6} />
+        
+          
         </div>
       </div>
 
       {/* Left Arrow*/}
       <div
+   
         className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5
        text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer"
       >
-        <BsChevronCompactLeft onClick={prevSlide} size={30} />
+        <TbCircleArrowLeftFilled onClick={prevSlide} size={30} />
       </div>
       {/* Right Arrow*/}
       <div
         className="hidden group-hover:block absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5
        text-2xl rounded-full p-2 bg-black/20 text-white cursor-pointer"
       >
-        <BsChevronCompactRight onClick={nextSlide} size={30} />
+        <TbCircleArrowRightFilled onClick={nextSlide} size={30} />
       </div>
+      
       <div className="flex top-4 justify-center py-2">
         {slides.map((slide) => (
           <div
             key={slide.id}
             onClick={() => goToSlide(slide.id - 1)}
-            className="text-lg cursor-pointer"
+            className="text-lg cursor-pointer text-white"
           >
             <RxDotFilled />
           </div>
         ))}
       </div>
+      
     </div>
+    </div>
+    
   );
 }
 

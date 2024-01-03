@@ -9,7 +9,7 @@ import {
 
 const Valores = () => {
   return (
-    <div id="valores" className="container rounded-lg mx-auto bg-gradient-to-r from-[#2A94D7] to-[#3678a1] text-white p-5">
+    <div id="valores" className="container rounded-lg mx-auto bg-gradient-to-r from-[#487d49] to-[#7bb27a] text-white p-5">
       <div className="flex flex-col md:flex-row items-center">
         <div className="md:w-1/2">
           <div>
@@ -35,14 +35,14 @@ const Valores = () => {
           <div className="justify-center">
             <div className="my-4 w-full px-4">
               <a>
-                <div className="bg-white shadow-lg rounded-lg p-4">
-                  <h1 className="text-blue-700">
+                <div className="bg-gray-900 shadow-lg rounded-lg p-4">
+                  <h1 className="text-white">
                     <FaHandshake size={20}/>
                   </h1>
-                  <p className="text-lg text-blue-700 mt-4 font-semibold">
+                  <p className="text-lg text-white mt-4 font-semibold">
                     Integridade
                   </p>
-                  <p className="text-sm text-blue-700 mt-4 font-thin">
+                  <p className="text-sm text-white mt-4 font-thin">
                     Somos justos e honestos, comprometidos com nossa ética.
                   </p>
                 </div>
@@ -50,14 +50,14 @@ const Valores = () => {
             </div>
             <div className="my-4 w-full px-4">
               <a>
-                <div className="bg-white shadow-lg rounded-lg p-4 mt-4">
-                  <h1 className="text-blue-700">
+                <div className="bg-gray-900 shadow-lg rounded-lg p-4 mt-4">
+                  <h1 className="text-white">
                     <FaUsers size={20} />
                   </h1>
-                  <p className="text-lg text-blue-700 mt-4 font-semibold">
+                  <p className="text-lg text-white mt-4 font-semibold">
                     Colaboração
                   </p>
-                  <p className="text-sm text-blue-700 mt-4 font-thin">
+                  <p className="text-sm text-white mt-4 font-thin">
                     Valorizamos o trabalho em equipe.
                   </p>
                 </div>
@@ -65,14 +65,14 @@ const Valores = () => {
             </div>
             <div className="my-4 w-full px-4">
               <a>
-                <div className="bg-white shadow-lg rounded-lg p-4">
-                  <h1 className="text-blue-700">
+                <div className="bg-gray-900 shadow-lg rounded-lg p-4">
+                  <h1 className="text-white">
                     <FaArrowAltCircleUp size={20}/>
                   </h1>
-                  <p className="text-lg text-blue-700 mt-4 font-semibold">
+                  <p className="text-lg text-white mt-4 font-semibold">
                     Empenho
                   </p>
-                  <p className="text-sm text-blue-700 mt-4 font-thin">
+                  <p className="text-sm text-white mt-4 font-thin">
                     Demonstramos uma grande vontade de vencer.
                   </p>
                 </div>
@@ -80,14 +80,14 @@ const Valores = () => {
             </div>
             <div className="my-4 w-full px-4">
               <a>
-                <div className="bg-white shadow-lg rounded-lg p-4">
-                  <h1 className="text-blue-700">
+                <div className="bg-gray-900 shadow-lg rounded-lg p-4">
+                  <h1 className="text-white">
                     <FaHeartbeat size={20} />
                   </h1>
-                  <p className="text-lg text-blue-700 mt-4 font-semibold">
+                  <p className="text-lg text-white mt-4 font-semibold">
                     Perspectiva
                   </p>
-                  <p className="text-sm text-blue-700 mt-4 font-thin">
+                  <p className="text-sm text-white mt-4 font-thin">
                     Buscamos equilíbrio em todas as nossas ações.
                   </p>
                 </div>
@@ -95,14 +95,14 @@ const Valores = () => {
             </div>
             <div className="my-4 w-full px-4">
               <a>
-                <div className="bg-white shadow-lg rounded-lg p-4">
-                  <h1 className="text-blue-700">
+                <div className="bg-gray-900 shadow-lg rounded-lg p-4">
+                  <h1 className="text-white">
                     <FaEye size={20}/>
                   </h1>
-                  <p className="text-lg text-blue-700 mt-4 font-semibold">
+                  <p className="text-lg text-white mt-4 font-semibold">
                     Perspectiva
                   </p>
-                  <p className="text-sm text-blue-700 mt-4 font-thin">
+                  <p className="text-sm text-white mt-4 font-thin">
                     Buscamos equilíbrio em todas as nossas ações.
                   </p>
                 </div>
@@ -110,14 +110,14 @@ const Valores = () => {
             </div>
             <div className="my-4 w-full px-4">
               <a>
-                <div className="bg-white shadow-lg rounded-lg p-4">
-                  <h1 className="text-blue-700">
+                <div className="bg-gray-900 shadow-lg rounded-lg p-4">
+                  <h1 className="text-gray-900">
                     <FaHeartbeat size={20}/>
                   </h1>
-                  <p className="text-lg text-blue-700 mt-4 font-semibold">
+                  <p className="text-lg text-white mt-4 font-semibold">
                     Melhoria Contínua
                   </p>
-                  <p className="text-sm text-blue-700 mt-4 font-thin">
+                  <p className="text-sm text-white mt-4 font-thin">
                     Estamos constantemente em busca de novas soluções.
                   </p>
                 </div>

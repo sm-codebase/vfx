@@ -15,8 +15,8 @@ const containerStyle = {
 
 const center = {
    
-  lat: -22.330411183836983, 
-  lng: -46.93239987977187,
+  lat: -22.358720317091315, 
+  lng: -46.93256436441782  
 };
 
 function SimpleMap() {
@@ -30,7 +30,7 @@ function SimpleMap() {
   return isLoaded ? (
     <div id="localizacao" className="mt-20">
       <div className="rounded-lg">
-        <h3 className="p-2 text-2xl sm:text-2xl font-black text-center text-blue-600">
+        <h3 className="p-2 text-2xl sm:text-2xl font-black text-center text-[#487d49]">
           Localização
         </h3>
 

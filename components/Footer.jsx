@@ -13,8 +13,8 @@ import Link from "next/link";
 function Footer() {
   return (
     <div>
-      <div className="bg-gradient-to-r from-[#2A94D7] to-[#3678a1]  h-full w-full flex md:flex-row flex-col justify-around items-center  p-10">
-        <div className="p-5 mx-auto">
+      <div className="bg-gradient-to-r from-[#487d49] to-[#7bb27a]  h-1/2 w-full flex md:flex-row justify-around p-10 ">
+        <div className=" ">
           <ul>
             <a>
               <Image
@@ -25,9 +25,10 @@ function Footer() {
                 className="cursor-pointer"
               />
             </a>
-            <div className="flex justify-center gap-6 pb-4 -mt-12 ">
+            
+            <div className="flex pl-2 gap-6 -mt-10">
               <a
-                href="https://web.facebook.com/vfxmontagensindustritais"
+                href="https://www.facebook.com/flaviamachadobuffeteeventos/?locale=pt_BR"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -36,7 +37,7 @@ function Footer() {
                 </div>
               </a>
               <a
-                href="https://www.instagram.com/vfxmontagensindustriais/"
+                href="https://www.instagram.com/flaviamachadobuffeteventos/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -53,7 +54,7 @@ function Footer() {
           </ul>
         </div>
 
-        <div className="p-5 mx-auto">
+        <div className="pb-5 pl-2">
           <ul>
             <p className="text-white font-bold text-2xl pb-4 mt-10  ">
               Sobre nós
@@ -69,15 +70,14 @@ function Footer() {
             </li>
           </ul>
         </div>
-        <div className="p-5">
-          <ul></ul>
         </div>
-      </div>
+        
+      
       <div className="flex flex-col justify-center items-center text-center p-5 bg-gray-50">
         <h3 className=" text-gray-800 font-semibold">
-          © 2023 VFX Montagens Industriais | Todos os direitos reservados |
+          © 2024 Flavia  | Todos os direitos reservados |
           Desenvolvido ❤ pela{" "}
-          <span className="hover:text-blue-400 font-semibold cursor-pointer">
+          <span className="hover:text-green-400 font-semibold cursor-pointer">
             <a
               href="https://www.sousasmidia.com.br/"
               target="_blank"

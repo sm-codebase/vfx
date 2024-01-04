@@ -33,7 +33,7 @@ const quemSomos = () => {
             exatamente aquilo que desejam em termos de características, custo e
             atendimento. Nada é tão importante e essencial que não possa ser
             realizado com segurança preservando a vida, a integridade e o bem
-            estar do ser humano dada.
+            estar do ser humano.
           </p>
         </div>
         </div>

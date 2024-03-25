@@ -6,7 +6,7 @@ import primg1 from "../public/assets/carousel/pr-img-1.png";
 import primg2 from "../public/assets/carousel/pr-img-2.png";
 import primg3 from "../public/assets/carousel/pr-img-3.png";
 import primg4 from "../public/assets/carousel/pr-img-4.png";
-import Logo from "../public/logo.png";
+import Logo from "../public/logo-3.svg";
 
 const slides = [
   {
@@ -80,11 +80,11 @@ function Carousel() {
 
   return (
     <div
-      className="max-w-[1200px] h-[560px] w-full m-auto py- px-2  relative group"
+      className="max-w-[1200px] h-[560px] w-full m-auto mt-[95px]  relative group"
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      <div className="w-full h-full mt-24 bg-center bg-cover duration-500 relative transition-opacity bg-gradient-to-r from-[#2A94D7] to-[#3678a1]">
+      <div className="w-full h-full  bg-center bg-cover duration-500 relative transition-opacity bg-gradient-to-r from-[black] to-gray-800">
         <Image
           className="rounded-2xl opacity-30 transition-opacity duration-500 group-hover:opacity-30"
           src={slides[currentIndex].src}
@@ -104,8 +104,8 @@ function Carousel() {
             </p>
           </div>
         </div>
-        <div className="absolute bottom-0 grid justify-items-center w-full">
-          <Image src={Logo} alt="logo-branco" height={38.5} width={116.6} />
+        <div className="absolute bottom-0 grid justify-items-center w-full opacity-50">
+          <Image src={Logo} alt="logo-branco" height={0} width={116.6} />
         </div>
       </div>
 

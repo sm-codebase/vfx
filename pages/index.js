@@ -5,6 +5,11 @@ import Services from "../components/Services";
 import Valores from "../components/Valores";
 import SimpleMap from "../components/SimpleMap";
 import Gestão from "../components/Gestão";
+import Projects from "../components/Projects";
+import Metodos from "../components/Metodos";
+import Qualidade from "../components/Qualidade";
+import Segurança from "../components/Segurança";
+
 
 export default function Home() {
   return (
@@ -20,6 +25,10 @@ export default function Home() {
       <Valores />
       <SimpleMap />
       <Gestão />
+      <Projects />
+      <Metodos />
+      <Qualidade />
+      <Segurança />
     </div>
   );
 }

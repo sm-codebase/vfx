@@ -20,7 +20,7 @@ const Empresa = () => {
   return (
     <div
       id="empresa"
-      className="w-full bg-gray-200   text-black p-5 md:p-10 mt-10 md:mt-[100px]"
+      className="w-full bg-gray-200   text-black p-5  mt-10 md:my-[50px]"
     >
       <div className="grid justify-items-center text-gray-700 ">
         <div className="md:w-1/2">

@@ -28,7 +28,7 @@ function SimpleMap() {
 
   return isLoaded ? (
     <div id="localizacao" className="mt-20 ">
-      <div className="rounded-lg md:grid grid-cols-2 justify-items-center">
+      <div className="rounded-lg md:grid grid-cols-2 justify-items-center ">
         <div className="md:w-1/2 leading-7 mx-5">
           <h3>VFX METAL MECÂNICA</h3>
           <p className="my-3">

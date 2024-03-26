@@ -4,10 +4,10 @@ import produtoimg1 from "../public/assets/sl-img-3.png";
 
 const Gestão = () => {
   return (
-    <div className="md:grid justify-center md:mt-[100px] ">
+    <div className="md:grid justify-center md:mt-[100px] my-10 bg-gray-200 ">
       <div className="">
-        <div className="p-5 ">
-          <h3 className="">Sistemade gestão integrado</h3>
+        <div className="p-5">
+          <h3 className="">Sistema de gestão integrado</h3>
           <p className="my-3">
             A VFX possui um sistema de gestão integrado, a caminho de se
             certificar na norma ISO 9001 e tem como base os pilares, Pessoas,

@@ -1,65 +1,32 @@
 import React from "react";
 import Image from "next/image";
-import Produtoimg1 from "../public/assets/sl-img-1.png";
+import Produtoimg1 from "../public/assets/grafico-1.png";
+import Produtoimg2 from "../public/assets/grafico-2.png";
 
 const Metodos = () => {
   return (
-    <div className="md:mt-[50px]">
+    <div className="md:mt-[50px] ">
       <div>
-        <h2 className="text-center">Metodos de Controle: Cromograma MS project 2013</h2>
+        <h2 className="text-center">
+          Métodos de Controle: Cronograma MS project 2013
+        </h2>
       </div>
 
-      <div className="grid grid-rows-3 grid-flow-col my-10 gap-4 ">
-        <div className="h-[300px] w-full relative group col-span-2 ">
+      <div className="grid grid-cols-2 justify-items-center my-10 gap-4 ">
+        <div className="h-[500px] w-[500px] relative group grid  items-center ">
           <Image
             src={Produtoimg1}
             alt="imagem do grafico"
-            layout="fill"
+           className=""
             objectFit="cover"
           />
         </div>
 
-        <div className="h-[300px] w-full relative group col-span-1">
+        <div className="h-[500px] w-[500px] relative group grid  items-center ">
           <Image
-            src={Produtoimg1}
+            src={Produtoimg2}
             alt="imagem do grafico"
-            layout="fill"
-            objectFit="cover"
-          />
-        </div>
-
-        <div className="h-[300px] w-full relative group col-span-3">
-          <Image
-            src={Produtoimg1}
-            alt="imagem do grafico"
-            layout="fill"
-            objectFit="cover"
-          />
-        </div>
-
-        <div className="h-[300px] w-full relative group">
-          <Image
-            src={Produtoimg1}
-            alt="imagem do grafico"
-            layout="fill"
-            objectFit="cover"
-          />
-        </div>
-
-        <div className="h-[300px] w-full relative group">
-          <Image
-            src={Produtoimg1}
-            alt="imagem do grafico"
-            layout="fill"
-            objectFit="cover"
-          />
-        </div>
-
-        <div className="h-[300px] w-full relative group">
-          <Image
-            src={Produtoimg1}
-            alt="imagem do grafico"
-            layout="fill"
+           
             objectFit="cover"
           />
         </div>

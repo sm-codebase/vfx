@@ -9,6 +9,7 @@ import Projects from "../components/Projects";
 import Metodos from "../components/Metodos";
 import Qualidade from "../components/Qualidade";
 import Segurança from "../components/Segurança";
+import Clientes from "../components/Clientes";
 
 
 export default function Home() {
@@ -29,6 +30,7 @@ export default function Home() {
       <Metodos />
       <Qualidade />
       <Segurança />
+      <Clientes />
     </div>
   );
 }

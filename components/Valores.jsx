@@ -1,129 +1,49 @@
 import React from "react";
-import {
-  FaHeartbeat,
-  FaHandshake,
-  FaUsers,
-  FaArrowAltCircleUp,
-  FaEye,
-} from "react-icons/fa";
+import { MdEnergySavingsLeaf } from "react-icons/md";
+import { FaGear, FaHelmetSafety } from "react-icons/fa6";
+import { GiWoodPile } from "react-icons/gi";
 
 const Valores = () => {
   return (
-    <div id="valores" className="container rounded-lg mx-auto bg-gradient-to-r from-[#2A94D7] to-[#3678a1] text-white p-5">
-      <div className="flex flex-col md:flex-row items-center">
-        <div className="md:w-1/2">
-          <div>
-            <h1 className="text-2xl font-bold mb-2">
-              Nossos Valores
-              </h1>
+    <div
+      id="valores"
+      className="bg-gray-200 text-white  w-full h-full md:h-[700px]"
+    >
+      <div className="flex flex-col md:flex-row justify-center items-center w-full h-full gap-5 p-10">
+        <div
+          style={{ borderRadius: "50px", transition: "all 0.4s" }}
+          className="bg-white w-[350px] md:w-[400px] h-[375px] hover:scale-110 hover:bg-gray-300"
+        >
+          <div className="grid justify-center mt-10">
+            <FaGear size={70} color="#c20001" />
           </div>
-          <div className="text-justify">
-            <p>
-              {" "}
-              Integridade, colaboração, empenho, perspectiva, melhoria contínua,
-              inovação e flexibilidade, buscando constantemente superar as
-              expectativas dos clientes e promover a qualidade, sustentabilidade
-              e inovação em suas embalagens de madeira.
-            </p>
-          </div>
+          <p className="grid text-center text-3xl font-bold text-gray-700 p-12">
+            Melhores práticas de produção e automatização
+          </p>
         </div>
-      </div>
-      <div className="relative flex justify-center p-4"></div>
 
-      <div className="flex flex-wrap items-center pt-0">
-        <div className="w-full md:w-6/12 px-4 mr-auto ml-auto">
-          <div className="justify-center">
-            <div className="my-4 w-full px-4">
-              <a>
-                <div className="bg-white shadow-lg rounded-lg p-4">
-                  <h1 className="text-blue-700">
-                    <FaHandshake size={20}/>
-                  </h1>
-                  <p className="text-lg text-blue-700 mt-4 font-semibold">
-                    Integridade
-                  </p>
-                  <p className="text-sm text-blue-700 mt-4 font-thin">
-                    Somos justos e honestos, comprometidos com nossa ética.
-                  </p>
-                </div>
-              </a>
-            </div>
-            <div className="my-4 w-full px-4">
-              <a>
-                <div className="bg-white shadow-lg rounded-lg p-4 mt-4">
-                  <h1 className="text-blue-700">
-                    <FaUsers size={20} />
-                  </h1>
-                  <p className="text-lg text-blue-700 mt-4 font-semibold">
-                    Colaboração
-                  </p>
-                  <p className="text-sm text-blue-700 mt-4 font-thin">
-                    Valorizamos o trabalho em equipe.
-                  </p>
-                </div>
-              </a>
-            </div>
-            <div className="my-4 w-full px-4">
-              <a>
-                <div className="bg-white shadow-lg rounded-lg p-4">
-                  <h1 className="text-blue-700">
-                    <FaArrowAltCircleUp size={20}/>
-                  </h1>
-                  <p className="text-lg text-blue-700 mt-4 font-semibold">
-                    Empenho
-                  </p>
-                  <p className="text-sm text-blue-700 mt-4 font-thin">
-                    Demonstramos uma grande vontade de vencer.
-                  </p>
-                </div>
-              </a>
-            </div>
-            <div className="my-4 w-full px-4">
-              <a>
-                <div className="bg-white shadow-lg rounded-lg p-4">
-                  <h1 className="text-blue-700">
-                    <FaHeartbeat size={20} />
-                  </h1>
-                  <p className="text-lg text-blue-700 mt-4 font-semibold">
-                    Perspectiva
-                  </p>
-                  <p className="text-sm text-blue-700 mt-4 font-thin">
-                    Buscamos equilíbrio em todas as nossas ações.
-                  </p>
-                </div>
-              </a>
-            </div>
-            <div className="my-4 w-full px-4">
-              <a>
-                <div className="bg-white shadow-lg rounded-lg p-4">
-                  <h1 className="text-blue-700">
-                    <FaEye size={20}/>
-                  </h1>
-                  <p className="text-lg text-blue-700 mt-4 font-semibold">
-                    Perspectiva
-                  </p>
-                  <p className="text-sm text-blue-700 mt-4 font-thin">
-                    Buscamos equilíbrio em todas as nossas ações.
-                  </p>
-                </div>
-              </a>
-            </div>
-            <div className="my-4 w-full px-4">
-              <a>
-                <div className="bg-white shadow-lg rounded-lg p-4">
-                  <h1 className="text-blue-700">
-                    <FaHeartbeat size={20}/>
-                  </h1>
-                  <p className="text-lg text-blue-700 mt-4 font-semibold">
-                    Melhoria Contínua
-                  </p>
-                  <p className="text-sm text-blue-700 mt-4 font-thin">
-                    Estamos constantemente em busca de novas soluções.
-                  </p>
-                </div>
-              </a>
-            </div>
+        <div
+          style={{ borderRadius: "50px", transition: "all 0.4s" }}
+          className="bg-white w-[350px] md:w-[400px] h-[375px] hover:scale-110 hover:bg-gray-300"
+        >
+          <div className="grid justify-center mt-10">
+            <MdEnergySavingsLeaf  size={80} color="#c20001" />
           </div>
+          <p className="grid text-center text-3xl font-bold text-gray-700 p-12">
+            Energia renovável fotovoltaíca e madeiras de reflorestamento
+          </p>
+        </div>
+
+        <div
+          style={{ borderRadius: "50px", transition: "all 0.4s" }}
+          className="bg-white w-[350px] md:w-[400px] h-[375px] hover:scale-110 hover:bg-gray-300"
+        >
+          <div className="grid justify-center mt-10">
+            <GiWoodPile size={70} color="#c20001" />
+          </div>
+          <p className="grid text-center text-3xl font-bold text-gray-700 p-12">
+            Desenvolvimento de paletes e embalagens de madeira sob medida
+          </p>
         </div>
       </div>
     </div>

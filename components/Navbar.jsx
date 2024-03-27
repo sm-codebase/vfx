@@ -56,8 +56,8 @@ const Navbar = () => {
         <div
           className={
             nav
-              ? "absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-[#017bbe] text-center ease-in duration-300"
-              : "absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-[#017bbe] text-center ease-in duration-300"
+              ? "absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen bg-[#4e4d4b] text-center ease-in duration-300"
+              : "absolute top-0 left-[-100%] right-0 bottom-0 flex justify-center items-center w-full h-screen bg-[#4e4d4b] text-center ease-in duration-300"
           }
         >
           <div className="flex flex-col sm:flex-row justify-around justify-items-center w-full p-4 sm:p-20 text-white text-start">
@@ -70,7 +70,7 @@ const Navbar = () => {
                     paddingBottom: "10px",
                   }}
                 >
-                  Vfx
+                  VFX
                 </h1>
                 <li
                   onClick={handleNav}

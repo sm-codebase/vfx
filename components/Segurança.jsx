@@ -8,7 +8,7 @@ const Segurança = () => {
       <div>
         <h2 className="my-5">Segurança, Saúde e Meio Ambiente</h2>
       </div>
-      <div className="grid grid-cols-2 ">
+      <div className="md:grid grid-cols-2 ">
         <div className="leading-8">
           <p>
             A <b>VFX</b> Montagens Industriais, atua orientado pelo sistema de

@@ -10,7 +10,7 @@ const Projects = () => {
     <div className="p-5 md:my-[50px] mx-auto container">
       <div className="grid justify-items-center">
         <div className="md:w-1/2">
-          <h3>Gestão de Projetos</h3>
+          <h2>Gestão de Projetos</h2>
 
           <p className="py-3">
             A VFX adota um planejamento e controle de obra eficientes, com o

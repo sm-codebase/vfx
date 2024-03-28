@@ -90,7 +90,7 @@ const Clientes = () => {
         </div>
       </div>
 
-      <div className="grid justify-center">
+      <div className="grid justify-center ">
         <div className="h-[300px]  w-[200px] relative group  ">
           <Image src={Logo21} alt="imagem do grafico" objectFit="cover" />
         </div>

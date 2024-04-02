@@ -1,7 +1,6 @@
 import React from "react";
-import { MdEnergySavingsLeaf } from "react-icons/md";
-import { FaGear, FaHelmetSafety } from "react-icons/fa6";
-import { GiWoodPile } from "react-icons/gi";
+import { FaGears } from "react-icons/fa6";
+import { FaTools, FaChartLine  } from "react-icons/fa";
 
 const Valores = () => {
   return (
@@ -15,10 +14,10 @@ const Valores = () => {
           className="bg-white w-[350px] md:w-[400px] h-[375px] hover:scale-110 hover:bg-gray-300"
         >
           <div className="grid justify-center mt-10">
-            <FaGear size={70} color="#c20001" />
+            <FaGears size={70} color="#c20001" />
           </div>
           <p className="grid text-center text-3xl font-bold text-gray-700 p-12">
-            Melhores práticas de produção e automatização
+            Experiência em Caldeiraria Industrial
           </p>
         </div>
 
@@ -27,10 +26,10 @@ const Valores = () => {
           className="bg-white w-[350px] md:w-[400px] h-[375px] hover:scale-110 hover:bg-gray-300"
         >
           <div className="grid justify-center mt-10">
-            <MdEnergySavingsLeaf  size={80} color="#c20001" />
+            <FaTools size={80} color="#c20001" />
           </div>
           <p className="grid text-center text-3xl font-bold text-gray-700 p-12">
-            Energia renovável fotovoltaíca e madeiras de reflorestamento
+            Manutenção Industrial de Excelência
           </p>
         </div>
 
@@ -39,10 +38,10 @@ const Valores = () => {
           className="bg-white w-[350px] md:w-[400px] h-[375px] hover:scale-110 hover:bg-gray-300"
         >
           <div className="grid justify-center mt-10">
-            <GiWoodPile size={70} color="#c20001" />
+          <FaChartLine  size={70} color="#c20001"/>
           </div>
           <p className="grid text-center text-3xl font-bold text-gray-700 p-12">
-            Desenvolvimento de paletes e embalagens de madeira sob medida
+            Soluções Integradas para Indústria
           </p>
         </div>
       </div>

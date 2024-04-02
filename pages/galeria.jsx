@@ -5,7 +5,7 @@ const galeria = () => {
   return (
     <section className="mt-[95px]">
       <div className="grid justify-center">
-        <h1 className="my-10">Exemplo de Trabalhos</h1>
+        <h1 className="my-10">Exemplos de Trabalhos</h1>
       </div>
       <div>
         <Lightbox />

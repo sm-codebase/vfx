@@ -31,7 +31,7 @@ const Segurança = () => {
           </p>
         </div>
 
-        <div className="h-[300px] w-[300px] relative group ">
+        <div className="md:h-[300px] md:w-[300px] h-[200px] w-[200px] relative group ">
           <div className="">
             <Image
               src={Produtoimg1}

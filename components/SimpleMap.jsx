@@ -9,7 +9,7 @@ const loader = new Loader({
 });
 
 const containerStyle = {
-  width: "70vh",
+  width: "100%",
   height: "55vh",
 };
 

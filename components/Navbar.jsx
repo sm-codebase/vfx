@@ -46,7 +46,7 @@ const Navbar = () => {
         </Link>
 
         <p className="text-black hidden sm:block">
-          Nosso produto é a base para os seus negócios
+         Pode colocar alguma frase de efeito ou slogan da empresa
         </p>
         {/* Mobile button */}
         <div onClick={handleNav} className="block z-10">
@@ -114,13 +114,13 @@ const Navbar = () => {
                   onClick={handleNav}
                   className="p-2 text-2xl hover:text-gray-500"
                 >
-                  <Link href="/engradados">Caixas e engradados</Link>
+                  <Link href="/engradados">serviço 1</Link>
                 </li>
                 <li
                   onClick={handleNav}
                   className="p-2 text-2xl hover:text-gray-500"
                 >
-                  <Link href="/pallets">Pallet</Link>
+                  <Link href="/pallets">serviço 2</Link>
                 </li>
                 {/* Outros itens da lista */}
               </ul>

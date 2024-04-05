@@ -65,30 +65,30 @@ export default function Lightbox() {
           className="fixed inset-0 w-full  h-full z-30 flex items-center
        justify-center bg-black bg-opacity-50 gap-4"
         >
-          <div
+          <button
             className="absolute top-5 right-5 w-10 hover:opacity-50 transition-opacity ease-linear cursor-pointer"
             onClick={handleCloseLightBox}
           >
             <Image src={Close} alt="Button Close" />
-          </div>
+          </button>
 
-          <div
+          <button
             className="w-12 rotate-180 hover:opacity-50 transition-opacity ease-linear"
             onClick={() => handleNavigate("previous")}
           >
             <Image src={Arrow} alt="Arrow Previous" />
-          </div>
+          </button>
 
           <div>
           {<Image src={dataimgCurrent} width={500} alt="image" />}
           </div>
 
-          <div
+          <button
             className="w-12 hover:opacity-50 transition-opacity ease-linear"
             onClick={() => handleNavigate("next")}
           >
             <Image src={Arrow} alt="Arrow Next" />
-          </div>
+          </button>
         </div>
       )}
     </main>

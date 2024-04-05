@@ -8,7 +8,7 @@ const Segurança = () => {
       <div>
         <h2 className="my-5">Segurança, Saúde e Meio Ambiente</h2>
       </div>
-      <div className="md:grid grid-cols-2 ">
+      <div className="grid md:grid-cols-2 justify-items-center ">
         <div className="leading-8">
           <p>
             A <b>VFX</b> Montagens Industriais, atua orientado pelo sistema de
@@ -21,29 +21,27 @@ const Segurança = () => {
             cuidado com seus colaboradores, parceiros, clientes e com o
             desenvolvimento da comunidade em torno de suas unidades.
           </p>
+
+          <p className="leading-8 my-3">
+            Comprometida com a qualidade na prestação dos seus serviços, as
+            operações contam com equipes técnicas especializadas a atuarem de
+            forma sustentável e transparente na comunicação às partes
+            interessadas garantindo um ambiente seguro e saudável para todos.
+            Para isto, assumimos como compromisso
+          </p>
         </div>
 
-        <div className="h-[200px] w-[200px] relative group ">
+        <div className="h-[300px] w-[300px] relative group ">
           <div className="">
             <Image
               src={Produtoimg1}
               alt="imagem"
               layout="fill"
               objectFit="cover"
-              className="rounded-tl-xl"
+              className="rounded-full"
             />
           </div>
         </div>
-      </div>
-
-      <div>
-        <p className="leading-8 my-3">
-          Comprometida com a qualidade na prestação dos seus serviços, as
-          operações contam com equipes técnicas especializadas a atuarem de
-          forma sustentável e transparente na comunicação às partes interessadas
-          garantindo um ambiente seguro e saudável para todos. Para isto,
-          assumimos como compromisso
-        </p>
       </div>
     </div>
   );

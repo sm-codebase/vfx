@@ -29,7 +29,7 @@ const Projects = () => {
         </div>
       </div>
 
-      <div className="md:flex grid justify-center gap-4 mt-10">
+      <div className="md:flex grid grid-cols-2 justify-center gap-4 mt-10">
         <div className="grid justify-items-center">
           <FaFolderClosed size={60} />
           <p>Administrativo</p>

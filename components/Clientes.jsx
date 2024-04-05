@@ -19,25 +19,25 @@ import Logo16 from "../public/assets/clientes/saaeMogimirim.png";
 import Logo17 from "../public/assets/clientes/sandvik.png";
 import Logo18 from "../public/assets/clientes/suzano.jpg";
 import Logo19 from "../public/assets/clientes/sylvamo.jpg";
-import Logo20 from "../public/assets/clientes/valmet.jpg";
+import Logo20 from "../public/assets/clientes/valmett.jpg";
 import Logo21 from "../public/assets/clientes/yaraaa.png";
 
 const Clientes = () => {
   return (
     <div className="mx-[150px] ">
-      <h2>Principais Clientes</h2>
+      <h2 className="grid justify-center text-center">Principais Clientes</h2>
 
-      <div className="grid grid-cols-4 justify-items-center  my-10 gap-2">
+      <div className="grid md:grid-cols-4 grid-cols-1 justify-items-center  my-10 gap-2">
         <div className="h-[300px] w-[300px] relative group grid justify-center items-center">
           <Image src={Logo1} alt="imagem do grafico" />
         </div>
-        <div className="h-[300px]  w-[300px] relative group grid justify-center items-center">
+        <div className="h-[300px]  w-[250px] relative group grid justify-center items-center">
           <Image src={Logo2} alt="imagem do grafico" objectFit="cover" />
         </div>
         <div className="h-[300px]  w-[300px] relative group grid justify-center items-center">
           <Image src={Logo3} alt="imagem do grafico" objectFit="cover" />
         </div>
-        <div className="h-[300px]  w-[300px] relative group grid justify-center items-center">
+        <div className="h-[300px]  w-[250px] relative group grid justify-center items-center">
           <Image src={Logo4} alt="imagem do grafico" objectFit="cover" />
         </div>
         <div className="h-[300px]  w-[300px] relative group grid justify-center items-center">
@@ -49,22 +49,22 @@ const Clientes = () => {
         <div className="h-[300px]  w-[300px] relative group grid justify-center items-center">
           <Image src={Logo7} alt="imagem do grafico" objectFit="cover" />
         </div>{" "}
-        <div className="h-[300px]  w-[300px] relative group grid justify-center items-center">
+        <div className="h-[300px]  w-[250px] relative group grid justify-center items-center">
           <Image src={Logo8} alt="imagem do grafico" objectFit="cover" />
         </div>{" "}
         <div className="h-[300px]  w-[300px] relative group grid justify-center items-center">
           <Image src={Logo9} alt="imagem do grafico" objectFit="cover" />
         </div>{" "}
-        <div className="h-[300px]  w-[300px] relative group grid justify-center items-center">
+        <div className="h-[300px]  w-[250px] relative group grid justify-center items-center">
           <Image src={Logo10} alt="imagem do grafico" objectFit="cover" />
         </div>{" "}
-        <div className="h-[300px]  w-[300px] relative group grid justify-center items-center">
+        <div className="h-[300px]  w-[250px] relative group grid justify-center items-center">
           <Image src={Logo11} alt="imagem do grafico" objectFit="cover" />
         </div>{" "}
         <div className="h-[300px]  w-[300px] relative group grid justify-center items-center">
           <Image src={Logo12} alt="imagem do grafico" objectFit="cover" />
         </div>{" "}
-        <div className="h-[100px]  w-[300px] relative group grid justify-center items-center">
+        <div className="h-[300px]  w-[300px] relative group grid justify-center items-center">
           <Image src={Logo13} alt="imagem do grafico" objectFit="cover" />
         </div>{" "}
         <div className="h-[300px]  w-[300px] relative group grid justify-center items-center">
@@ -76,13 +76,13 @@ const Clientes = () => {
         <div className="h-[300px]  w-[300px] relative group grid justify-center items-center">
           <Image src={Logo16} alt="imagem do grafico" objectFit="cover" />
         </div>{" "}
-        <div className="h-[300px]  w-[300px] relative group grid justify-center items-center">
+        <div className="h-[300px]  w-[250px] relative group grid justify-center items-center">
           <Image src={Logo17} alt="imagem do grafico" objectFit="cover" />
         </div>{" "}
-        <div className="h-[300px]  w-[300px] relative group grid justify-center items-center">
+        <div className="h-[300px]  w-[250px] relative group grid justify-center items-center">
           <Image src={Logo18} alt="imagem do grafico" objectFit="cover" />
         </div>{" "}
-        <div className="h-[300px]  w-[300px] relative group grid justify-center items-center">
+        <div className="h-[300px]  w-[250px] relative group grid justify-center items-center">
           <Image src={Logo19} alt="imagem do grafico" objectFit="cover" />
         </div>{" "}
         <div className="h-[300px]  w-[300px] relative group grid justify-center items-center">
@@ -90,8 +90,8 @@ const Clientes = () => {
       </div>{" "}
       </div>
 
-      <div className="grid justify-center">
-        <div className="h-[300px]  w-[200px] relative group  ">
+      <div className="grid justify-center ">
+        <div className="md:h-[300px]  md:w-[300px] h-[200px]  w-[200px] relative group grid justify-center items-center">
           <Image src={Logo21} alt="imagem do grafico" objectFit="cover" />
         </div>
       </div>

@@ -12,23 +12,18 @@ const Metodos = () => {
         </h2>
       </div>
 
-      <div className="grid grid-cols-2 justify-items-center my-10 gap-4 ">
-        <div className="h-[500px] w-[500px] relative group grid  items-center ">
+      <div className="grid md:grid-cols-2 justify-items-center my-10 gap-4 ">
+        <div className="md:h-[500px] md:w-[500px] h-[300px] w-[300px]  relative group grid justify-center  items-center ">
           <Image
             src={Produtoimg1}
             alt="imagem do grafico"
-           className=""
+            className=""
             objectFit="cover"
           />
         </div>
 
-        <div className="h-[500px] w-[500px] relative group grid  items-center ">
-          <Image
-            src={Produtoimg2}
-            alt="imagem do grafico"
-           
-            objectFit="cover"
-          />
+        <div className="md:h-[500px] md:w-[500px] h-[300px] w-[300px] relative group grid  items-center ">
+          <Image src={Produtoimg2} alt="imagem do grafico" objectFit="cover" />
         </div>
       </div>
     </div>

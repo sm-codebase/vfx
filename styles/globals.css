@@ -44,4 +44,8 @@ html {
   button {
     @apply rounded-xl uppercase bg-gradient-to-r from-[#2A94D7] to-[#3678a1] text-white;
   }
+
+  .elegante {
+    @apply rounded-xl uppercase bg-gradient-to-r from-[#d78f2a] to-[#a13636] text-white;
+  }
 }

@@ -1,26 +1,11 @@
 import React from "react";
-import {
-  FaTeeth,
-  FaGlobe,
-  FaCog,
-  FaSquare,
-  FaSquareFull,
-  FaSquarespace,
-  FaStethoscope,
-  FaHeartbeat,
-  FaStar,
-  FaMedal,
-  FaPager,
-  FaBook,
-} from "react-icons/fa";
-import Image from "next/image";
-import ProdutoImg from "../public/assets/industria-img-1.png";
+
 
 const Empresa = () => {
   return (
     <div
       id="empresa"
-      className="w-full bg-gray-200   text-black p-5  mt-10 md:my-[50px]"
+      className="md:mx-auto md:container bg-gray-200   text-black p-5  mt-10 md:my-[50px]"
     >
       <div className="grid justify-items-center text-gray-700 ">
         <div className="md:w-1/2">

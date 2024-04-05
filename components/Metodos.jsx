@@ -5,7 +5,7 @@ import Produtoimg2 from "../public/assets/grafico-2.png";
 
 const Metodos = () => {
   return (
-    <div className="md:mt-[50px] ">
+    <div className="md:mt-[50px] md:mx-auto md:container ">
       <div>
         <h2 className="text-center">
           Métodos de Controle: Cronograma MS project 2013

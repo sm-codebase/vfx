@@ -4,7 +4,7 @@ import Produtoimg1 from "../public/assets/logo-qsms.png";
 
 const Segurança = () => {
   return (
-    <div className="mx-auto p-10 bg-gray-300 w-full m-10">
+    <div className="md:mx-auto md:container p-10 bg-gray-300 w-full ">
       <div>
         <h2 className="my-5">Segurança, Saúde e Meio Ambiente</h2>
       </div>

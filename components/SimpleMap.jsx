@@ -27,7 +27,7 @@ function SimpleMap() {
   const [map, setMap] = React.useState(null);
 
   return isLoaded ? (
-    <div id="localizacao" className="mt-20 ">
+    <div id="localizacao" className="mt-20 md:mx-auto md:container">
       <div className="rounded-lg md:grid grid-cols-2 justify-items-center ">
         <div className="md:w-1/2 leading-7 mx-5">
           <h2>VFX METAL MECÂNICA</h2>

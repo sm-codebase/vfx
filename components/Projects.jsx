@@ -7,7 +7,7 @@ import { LuCalendarClock } from "react-icons/lu";
 
 const Projects = () => {
   return (
-    <div className="p-5 md:my-[50px] mx-auto container">
+    <div className="p-5 md:my-[50px] md:mx-auto md:container">
       <div className="grid justify-items-center">
         <div className="md:w-1/2">
           <h2>Gestão de Projetos</h2>

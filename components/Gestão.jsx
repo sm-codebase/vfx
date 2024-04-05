@@ -4,7 +4,7 @@ import produtoimg1 from "../public/assets/graph.jpg";
 
 const Gestão = () => {
   return (
-    <div className=" container mx-auto md:grid justify-items-center md:mt-[100px] my-10 bg-gray-200">
+    <div className=" md:mx-auto md:container md:grid justify-items-center md:mt-[100px] my-10 bg-gray-200">
       <div className="md:w-1/2 grid justify-center p-5">
         <h2 className="">Sistema de gestão integrado</h2>
         <p className="my-3 ">

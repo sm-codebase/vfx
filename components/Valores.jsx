@@ -6,12 +6,12 @@ const Valores = () => {
   return (
     <div
       id="valores"
-      className="bg-gray-200 text-white  w-full h-full md:h-[700px]"
+      className="md:mx-auto md:container bg-gray-200 text-white  w-full h-full md:h-[700px]"
     >
       <div className="flex flex-col md:flex-row justify-center items-center w-full h-full gap-5 p-10">
         <div
           style={{ borderRadius: "50px", transition: "all 0.4s" }}
-          className="bg-white w-[350px] md:w-[400px] h-[375px] hover:scale-110 hover:bg-gray-300"
+          className="bg-white w-[300px] md:w-[400px] h-[375px] hover:scale-110 hover:bg-gray-300"
         >
           <div className="grid justify-center mt-10">
             <FaGears size={70} color="#c20001" />
@@ -23,7 +23,7 @@ const Valores = () => {
 
         <div
           style={{ borderRadius: "50px", transition: "all 0.4s" }}
-          className="bg-white w-[350px] md:w-[400px] h-[375px] hover:scale-110 hover:bg-gray-300"
+          className="bg-white w-[300px] md:w-[400px] h-[375px] hover:scale-110 hover:bg-gray-300"
         >
           <div className="grid justify-center mt-10">
             <FaTools size={80} color="#c20001" />
@@ -35,7 +35,7 @@ const Valores = () => {
 
         <div
           style={{ borderRadius: "50px", transition: "all 0.4s" }}
-          className="bg-white w-[350px] md:w-[400px] h-[375px] hover:scale-110 hover:bg-gray-300"
+          className="bg-white w-[300px] md:w-[400px] h-[375px] hover:scale-110 hover:bg-gray-300"
         >
           <div className="grid justify-center mt-10">
           <FaChartLine  size={70} color="#c20001"/>

@@ -3,7 +3,7 @@ import { TbPointFilled } from "react-icons/tb";
 
 const Qualidade = () => {
   return (
-    <div>
+    <div className="md:mx-auto md:container">
       <div className="grid justify-center">
         <h2 className="text-center">
           Metodos de Controle: Controle de Qualidade VFX

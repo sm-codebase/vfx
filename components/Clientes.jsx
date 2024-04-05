@@ -24,7 +24,7 @@ import Logo21 from "../public/assets/clientes/yaraaa.png";
 
 const Clientes = () => {
   return (
-    <div className="mx-[150px] ">
+    <div className=" md:mx-auto md:container mt-10">
       <h2 className="grid justify-center text-center">Principais Clientes</h2>
 
       <div className="grid md:grid-cols-4 grid-cols-1 justify-items-center  my-10 gap-2">

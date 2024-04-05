@@ -19,7 +19,7 @@ import Logo16 from "../public/assets/clientes/saaeMogimirim.png";
 import Logo17 from "../public/assets/clientes/sandvik.png";
 import Logo18 from "../public/assets/clientes/suzano.jpg";
 import Logo19 from "../public/assets/clientes/sylvamo.jpg";
-import Logo20 from "../public/assets/clientes/valmett.jpg";
+import Logo20 from "../public/assets/clientes/valmettt.jpg";
 import Logo21 from "../public/assets/clientes/yaraaa.png";
 
 const Clientes = () => {

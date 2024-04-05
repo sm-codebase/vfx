@@ -11,7 +11,7 @@ const Qualidade = () => {
       </div>
 
       <div className="md:flex grid  gap-8 justify-center p-10  leading-6">
-        <div className="w-[400px] md:px-0 px-10">
+        <div className="w-[300px]">
           <div className="bg-gray-400 p-3 text-center">
             <p>Soldagem</p>
           </div>
@@ -41,7 +41,7 @@ const Qualidade = () => {
           </div>
         </div>
 
-        <div className="w-[400px] md:px-0 px-10">
+        <div className="w-[300px]">
           <div className="bg-gray-400 p-3 text-center">
             <p>Soldagem</p>
           </div>
@@ -71,7 +71,7 @@ const Qualidade = () => {
           </div>
         </div>
 
-        <div className="w-[400px] md:px-0 px-10">
+        <div className="w-[300px]">
           <div className="bg-gray-400 p-3 text-center">
             <p>Soldagem</p>
           </div>
@@ -101,7 +101,7 @@ const Qualidade = () => {
           </div>
         </div>
 
-        <div className="w-[400px] md:px-0 px-10">
+        <div className="w-[300px]">
           <div className="bg-gray-400 p-3 text-center">
             <p>Soldagem</p>
           </div>
@@ -131,7 +131,7 @@ const Qualidade = () => {
           </div>
         </div>
 
-        <div className="w-[400px] md:px-0 px-10 ">
+        <div className="w-[300px] ">
           <div className="bg-gray-400 p-3 text-center">
             <p>Soldagem</p>
           </div>

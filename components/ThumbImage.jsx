@@ -12,7 +12,7 @@ export function ThumbImage({ srcImage , onClick }) {
         >
         <Image           
             src={srcImage}
-            width={300}
+            width={350}
             height={200}
             alt="Image"
             className="hover:scale-110 transition-all ease-linear cursor-pointer" 

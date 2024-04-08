@@ -4,7 +4,7 @@ const TrabalheConosco = () => {
   return (
     <div
       id="form"
-      className="flex md:flex-row flex-col-reverse justify-center gap-10 text-left p-5 mt-24"
+      className="flex md:flex-row flex-col-reverse justify-center gap-10 text-left p-5 mt-[150px]"
     >
       <div className="">
         <form
@@ -46,7 +46,7 @@ const TrabalheConosco = () => {
             />
           </div>
           <textarea
-            className="border shadow-lg p-3 w-[600px]"
+            className="border shadow-lg p-3 w-full"
             cols=""
             rows="3"
             placeholder="Menssagem"
@@ -66,7 +66,7 @@ const TrabalheConosco = () => {
           </div>
         </form>
       </div>
-      <div className="flex flex-col gap-8 p-8 md:w-[600px]">
+      <div className="flex flex-col gap-8  md:w-[600px]">
         <h1 className="text-4xl font-bold">Trabalhe conosco!</h1>
         <p>Precisamos de pessoas como voce.</p>
         <div>
